@@ -11,7 +11,17 @@ body {
   max-width: 640px;
   margin: 0 auto;
 }
+.home {
+  display: block;
+  transform: rotate(180deg);
+  float: left;
+  text-decoration: none;
+  font-size: 16pt;
+  line-height: 16pt;;
+}
 h1 {
+  clear: both;
+  margin-top: 36pt;
   font: normal 18pt/24pt sans-serif;
 }
 h2 {
