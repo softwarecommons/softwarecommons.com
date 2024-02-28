@@ -4,6 +4,8 @@ from django.urls import path
 
 def greetings(request):
     program = request.GET.get('program', 'program')
+    if program == 'error':
+        1 / 0
     return HttpResponse(f"Greetings, {program}!")
 
 urlpatterns = [

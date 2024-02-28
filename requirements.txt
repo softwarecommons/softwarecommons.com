@@ -1,5 +1,8 @@
 asgiref==3.7.2
+certifi==2024.2.2
 Django==5.0.2
 gunicorn==21.2.0
 packaging==23.2
+sentry-sdk==1.40.6
 sqlparse==0.4.4
+urllib3==2.2.1

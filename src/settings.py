@@ -25,6 +25,16 @@ else:
     ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0']
 
 
+# Sentry
+
+import sentry_sdk
+
+sentry_sdk.init(
+    dsn=os.environ['SENTRY_DSN'],
+    enable_tracing=True,
+)
+
+
 # Application definition
 
 INSTALLED_APPS = [
