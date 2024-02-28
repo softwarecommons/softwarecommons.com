@@ -5,24 +5,25 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-SECRET_KEY = os.environ['SECRET_KEY']
 DEBUG = os.environ.get('DEBUG', 'no') == 'yes'
+
+if 'SECRET_KEY' in os.environ:
+	SECRET_KEY = os.environ['SECRET_KEY']
+
 if 'FLY_APP_NAME' in os.environ:
     ENFORCE_HOST = 'new.softwarecommons.com'
     ALLOWED_HOSTS = [ENFORCE_HOST, f'{os.environ["FLY_APP_NAME"]}.fly.dev']
+    CSRF_TRUSTED_ORIGINS = [f'https://{ENFORCE_HOST}']
 else:
     ENFORCE_HOST = 'localhost:8000'
     ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0']
 
-
-# Sentry
-
-import sentry_sdk
-
-sentry_sdk.init(
-    dsn=os.environ['SENTRY_DSN'],
-    enable_tracing=True,
-)
+if 'SENTRY_DSN' in os.environ:
+	import sentry_sdk
+	sentry_sdk.init(
+		dsn=os.environ['SENTRY_DSN'],
+		enable_tracing=True,
+	)
 
 
 # Application definition
