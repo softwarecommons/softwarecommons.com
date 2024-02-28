@@ -10,8 +10,8 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RunSQL("INSERT INTO app_openproductmodel ('name') VALUES ('DOSP');"),
-        migrations.RunSQL("INSERT INTO app_openproductmodel ('name') VALUES ('Open Core');"),
-        migrations.RunSQL("INSERT INTO app_openproductmodel ('name') VALUES ('Hybrid');"),
-        migrations.RunSQL("INSERT INTO app_openproductmodel ('name') VALUES ('Other');"),
+        migrations.RunSQL("INSERT INTO app_openproductmodel (name) VALUES ('DOSP');"),
+        migrations.RunSQL("INSERT INTO app_openproductmodel (name) VALUES ('Open Core');"),
+        migrations.RunSQL("INSERT INTO app_openproductmodel (name) VALUES ('Hybrid');"),
+        migrations.RunSQL("INSERT INTO app_openproductmodel (name) VALUES ('Other');"),
     ]
