@@ -20,8 +20,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ['SECRET_KEY']
 DEBUG = os.environ.get('DEBUG', 'no') == 'yes'
 if 'FLY_APP_NAME' in os.environ:
-    ALLOWED_HOSTS = [f'{os.environ["FLY_APP_NAME"]}.fly.dev']
+    ENFORCE_HOST = 'new.softwarecommons.com'
+    ALLOWED_HOSTS = [ENFORCE_HOST, f'{os.environ["FLY_APP_NAME"]}.fly.dev']
 else:
+    ENFORCE_HOST = 'localhost:8000'
     ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0']
 
 
@@ -48,6 +50,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'enforce_host.EnforceHostMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
