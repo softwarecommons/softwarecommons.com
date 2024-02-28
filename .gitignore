@@ -1,5 +1,6 @@
 TODO
+activate.local
 bin
+db.sqlite3
 lib
 pyvenv.cfg
-db.sqlite3

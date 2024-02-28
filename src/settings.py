@@ -17,17 +17,12 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-#a2*$u)xg&0qpx4(gr+na0pmnwut70(946e!9ip1=qntikgla_'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-APP_NAME = os.environ.get("FLY_APP_NAME")
-ALLOWED_HOSTS = [f"{APP_NAME}.fly.dev", 'localhost', '127.0.0.1', '0.0.0.0']
+SECRET_KEY = os.environ['SECRET_KEY']
+DEBUG = os.environ.get('DEBUG', 'no') == 'yes'
+if 'FLY_APP_NAME' in os.environ:
+    ALLOWED_HOSTS = [f'{os.environ["FLY_APP_NAME"]}.fly.dev']
+else:
+    ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0']
 
 
 # Application definition

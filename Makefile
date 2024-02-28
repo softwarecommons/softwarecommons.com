@@ -1,7 +1,7 @@
-default: bin/django-admin
+default: bin
 	./manage.py runserver
 
-bin/django-admin:
+bin:
 	python3 -m venv --prompt 'softwarecommons' .
 	./bin/pip install --upgrade -r requirements.txt
 
