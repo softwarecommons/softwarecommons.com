@@ -1,14 +1,11 @@
+homepage = True
+[---]
 {% extends 'base.html' %}
 {% block content %}
 
-<p style="padding-bottom: 36pt">
-  <span style="color: red">DRAFT</span> -
-  <a href="https://github.com/getsentry/fsl.software/issues/2"
-    >discuss on GitHub</a
-  >
-</p>
-
 <h1>Software Commons</h1>
+
+<img class="meadow" src="/softwarecommons.background.webp">
 
 <blockquote>
   The <i>software commons</i> consists of all computer software which is
@@ -26,153 +23,28 @@
 
 <h2>Pitch</h2>
 
-<p>
-  Public software sharing is good, for [reasons]. The established brand
-  related to software sharing,
-  <a href="https://opensource.org/">Open Source</a>, is interpreted by
-  many to exclude certain kinds of sharing that are nevertheless also
-  good. <b>Software Commons is a brand</b> with a slightly wider focus. It
-  encompasses all Free and Open Source Software (FOSS), along with
-  additional practices. This website exists to educate the software
-  industry about beneficial sharing practices beyond Open Source,
-  particularly the
-  <a href="/sustainable-source/">Sustainable Source</a> model.
-</p>
-
-<h3>The Limits of Open Source</h3>
-
-<p>
-  Open Source is great for shared infrastructure, and as the foundation
-  for certain kinds of business models (primarily service-based). However,
-  Open Source licenses are a double-edged sword. They create the
-  possibility for communities to form around software projects, but they
-  do not adequately protect against
-  <a href="https://en.wikipedia.org/wiki/Free-rider_problem"
-    >harmful free-riding</a
-  >, which can lead to a
-  <a href="https://en.wikipedia.org/wiki/Tragedy_of_the_commons"
-    >tragedy of the commons</a
-  >.
-</p>
-
-<p>
-  Many Open Source-aligned founders of software companies <i>want</i> to
-  share the code for their <b>core software products</b>, not just
-  infrastructure. Copyleft is one strategy to combat harmful free-riding,
-  but it is not right for every company. Many founders are more aligned
-  with permissive Open Source. Fortunately, there are good alternatives:
-  <a href="/open-core/">Open Core</a> and
-  <a href="/sustainable-source/">Sustainable Source</a>.
-</p>
-
-<h3>Comparison with Creative Commons</h3>
-
-<p>
-  Software Commons is like
-  <a href="https://creativecommons.org/">Creative Commons</a> for
-  software. Creative Commons is explicitly
-  <a
-    href="https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software"
-    ><i>not</i> for software</a
-  >, but it takes in a wider scope of creative works than Open Source does
-  software. The Creative Commons motto is, &ldquo;<a
-    href="https://creativecommons.org/faq/#what-does-some-rights-reserved-mean"
-    >Some rights reserved</a
-  >.&rdquo; It includes licenses that
-  <a href="https://creativecommons.org/licenses/by-nc/4.0/"
-    >restrict commercial use</a
-  >, and licenses that
-  <a href="https://creativecommons.org/licenses/by-nd/4.0/"
-    >restrict modification</a
-  >. A strict definition of Open Source does not allow for such
-  restrictions. Software Commons is a superset of Open Source that
-  acknowledges the validity of some restrictions on sharing in order to
-  curtail harmful free-riding.
-</p>
-
-<div class="img"><img src="cc.webp" /></div>
-
-<p>
-  That said, Software Commons is also unlike Creative Commons. We are not
-  a formal non-profit, and we do not provide a comprehensive suite of
-  licenses. Established groups already do that. For example, the Open
-  Source Initiative
-  <a href="https://opensource.org/licenses/">defines licenses</a> for the
-  Open Source subset of Software Commons, and SPDX provides
-  <a href="https://spdx.org/licenses/"
-    >exhaustive license classification</a
-  >.
-</p>
-
-<p>
-  Software Commons is focused on education about sharing practices beyond
-  Open Source, particularly
-  <a href="/sustainable-source">Sustainable Source</a>.
-</p>
-
-<h2>Five Main Types of Software Sharing</h2>
-
-<p>
-  There are five broad categories of sharing practices in the software
-  industry. All software released under any of these practices is part of
-  Software Commons.
-</p>
-
-<dl>
-  <dt>
-    <a href="/public-domain/">Public Domain</a>
-  </dt>
-  <dd>Fewest restrictions. (CC0, WTFPL)</dd>
-
-  <dt>
-    <a href="/permissive/">Open Source - Permissive</a>
-  </dt>
-  <dd>Few restrictions. (BSD, MIT, ISC, Apache)</dd>
-
-  <dt>
-    <a href="/copyleft/">Open Source - Copyleft</a>
-  </dt>
-  <dd>
-    Restrictions to enforce reciprocal sharing. (GPL, AGPL, LGPL, MPL)
-  </dd>
-
-  <dt>
-    <a href="/open-core/">Open Core</a>
-  </dt>
-  <dd>Restrictions on feature set. (GitLab model)</dd>
-
-  <dt>
-    <a href="/sustainable-source/">Sustainable Source</a>
-  </dt>
-  <dd>Restrictions on competition. (FSL, BUSL, ELv2)</dd>
-</dl>
-
-<h2>What Software Commons is Not</h2>
-
-<dl>
-  <dt>
-    <a href="/source-available/">Source Available</a>
-  </dt>
-  <dd>
-    Source Available is a highly ambiguous category, encompassing some
-    software that is part of Software Commons, and much that is not (for
-    example, code that is readable by customers under NDA but not by the
-    public). We recommend against the use of this term.
-  </dd>
-
-  <dt>Closed Source</dt>
-
-  <dd>Closed-source software is not part of the Software Commons.</dd>
-</dl>
-
-<h2>Participants</h2>
-
-<p>Software Commons is an educational initiative brought to you by:</p>
+<p> Public software sharing is great, for <a
+  href="https://chat.openai.com/share/f6a2f760-f3e8-485d-a61e-ff834cbc95d3">a
+  number of reasons</a>. But like any <a
+  href="https://en.wikipedia.org/wiki/Commons">commons</a>,
+the commons of publicly shared software must be protected against two
+threats:</p>
 
 <ul>
-  <li><a href="">GitButler</a></li>
-  <li><a href="">Keygen</a></li>
-  <li><a href="">Sentry</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Enclosure"><b>enclosure</b></a>, a minority gaining control and unfairly limiting access to others; and</li>
+  <li><a href="https://en.wikipedia.org/wiki/Tragedy_of_the_commons"><b>tragedy</b> of the commons</a>, the majority using more than their fair share, degrading and possibly even destroying the commons.</li>
 </ul>
 
+<p>In the former case there are <i>too many</i> restrictions, in the latter
+there are <i>too few</i>. Managing a healthy, sustainable commons means
+balancing between the two extremes, and Software Commons does so using two
+mechanisms: <a href="/about/licensing">licensing</a>, and the <a
+href="/about/fair-share">Fair Share</a>. We recognize both <a
+href="/about/open-source-projects">Open Source Projects</a> and <a
+href="/about/open-products">Open Products</a> as legitimate.</p>
+
+<p>Read more <a href="/about/">about Software Commons</a>.</p>
+
 {% endblock %}
+
+<h2></h2>

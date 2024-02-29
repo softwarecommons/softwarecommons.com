@@ -3,12 +3,15 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 import inspect
 import os
 
-from aspen.request_processor import RequestProcessor as AspenRequestProcessor
+from aspen.request_processor import RequestProcessor as AspenRequestProcessor, DispatchStatus
 from aspen.http.request import Path as AspenPath
 from aspen.simplates.renderers import Renderer, Factory
 from aspen.simplates.simplate import Simplate
 from django.conf import settings
-from django.http import HttpResponse as DjangoResponse
+from django.http import \
+    HttpResponse as DjangoResponse, \
+    HttpResponseNotFound as DjangoNotFound, \
+    HttpResponseRedirect as DjangoRedirect
 from django.template import Template
 from django.template.context import Context as DjangoContext
 
@@ -58,13 +61,20 @@ class AspenDjangoRendererFactory(Factory):
 
 
 def view(django_request):
+    aspen_path = AspenPath(django_request.path)
+    last_part = aspen_path.parts[-1]
+    if last_part and '.' not in last_part:
+        # Redirect to trailing slash (I thought this was upstream in Aspen?).
+        return DjangoRedirect(aspen_path.decoded + '/')
     arp = settings.ASPEN_REQUEST_PROCESSOR
-    state = arp.process( AspenPath(django_request.path)
+    state = arp.process( aspen_path
                        , django_request.GET
                        , django_request.META.get('HTTP_ACCEPT', None)
                        , {'request': django_request}
                         )
-    _, _, output = state
+    dispatch_result, _, output = state
+    if dispatch_result.status == DispatchStatus.missing:
+        return DjangoNotFound()
     body = output.body
     if type(body) is not type(b''):
         assert output.charset

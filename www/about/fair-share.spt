@@ -1,0 +1,8 @@
+title = "Licensing"
+[---] text/html
+{% extends 'base.html' %}
+{% block content %}
+
+<p>Licensing is one of two approaches that Software Commons takes to manage </p>
+
+{% endblock %}

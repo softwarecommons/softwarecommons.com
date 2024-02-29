@@ -10,8 +10,17 @@
   </head>
   <body>
     <div class="content">
+      <p style="padding-bottom: 36pt">
+        <span style="color: red">DRAFT</span> -
+        <a href="https://github.com/getsentry/fsl.software/issues/2"
+          >discuss on GitHub</a
+        >
+      </p>
+      {% if not homepage %}
+      <a class="home" href="..">⤵️</a>
+      {% endif %}
+      <h1>{{ title }}</h1>
 			{% block content %}{%endblock %}
     </div>
   </body>
 </html>
-

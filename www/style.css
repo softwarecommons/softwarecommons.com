@@ -54,15 +54,17 @@ dd {
 ul {
   margin: 6pt 0 6pt 36pt;
 }
+li {
+  margin: 6pt 0;
+}
 .img {
   border: solid 1px #ccc;
   border-style: solid none;
   padding: 36pt 0;
 }
-img {
-  display: block;
-  width: 80%;
-  margin: 0 auto;
+img.meadow {
+  width: 100%;
+  margin: 12pt 0;
 }
 
 @media (max-width: 832px) {

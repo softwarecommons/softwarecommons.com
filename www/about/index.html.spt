@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>About Software Commons</h1>
+
+<p>Software Commons is <a href="./bylaws">a multi-stakeholder cooperative</a> of software producers
+and consumers, both corporate and individual. Our purpose is to manage a
+healthy, sustainable global commons of shared software that <a
+href="https://blog.sentry.io/sentrys-open-source-values/">balances user freedom
+and developer sustainability</a> to protect against both <a
+href="https://en.wikipedia.org/wiki/Enclosure">enclosure</a> and the <a
+href="https://en.wikipedia.org/wiki/Tragedy_of_the_commons">tragedy of the
+commons</a>. We utilize two mechanisms: <a
+href="/about/licensing">licensing</a>, and the <a href="/about/fair-share">Fair
+Share</a>.</p>
+
+<p>We recognize both <a href="/about/open-source-projects">Open Source
+Projects</a> and <a href="/about/open-products">Open Products</a> as publicy
+shared resources within Software Commons. We celebrate software sharing
+wherever we see it, whether from members of Software Commons or not.</p>
+
+
+<h2>Comparison with Creative Commons</h2>
+
+<p>
+  Software Commons is like
+  <a href="https://creativecommons.org/">Creative Commons</a> for
+  software. Creative Commons is explicitly
+  <a
+    href="https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software"
+    ><i>not</i> for software</a
+  >, but encompasses a range of sharing practices for creative works. The Creative Commons motto is, &ldquo;<a
+    href="https://creativecommons.org/faq/#what-does-some-rights-reserved-mean"
+    >Some rights reserved</a
+  >,&rdquo; and it includes licenses that
+  <a href="https://creativecommons.org/licenses/by-nc/4.0/"
+    >restrict commercial use</a
+  >, and licenses that
+  <a href="https://creativecommons.org/licenses/by-nd/4.0/"
+    >restrict modification</a
+  >. Software Commons encompasses a similar range of sharing practices for software.
+</p>
+
+<h2>Comparison with the Open Source Initiative</h2>
+
+<p>
+
+  The <a href="https://opensource.org/">Open Source Initiative</a> was founded
+in 1998 to popularize the <a
+href="https://www.gnu.org/philosophy/free-sw.en.html">Free Software</a>
+movement. The ideals of Free and Open Source Software (FOSS) center on user
+freedom as an absolute value. From a commons point of view, FOSS does not 
+protect against harmful free-riding and the tragedy of the commons. Software 
+Commons includes <a href="./open-source-projects">Open Source projects</a>, and through the <a href="./fair-share">Fair Share</a> we protect FOSS against the tragedy of the commons.
+
+</p>
+
+{% endblock %}
