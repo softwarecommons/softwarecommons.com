@@ -1,59 +1,54 @@
-{% extends 'base.html' %}
-{% block content %}
+title = 'About Software Commons'
+[---]
+Software Commons is [a multi-stakeholder cooperative][1] of software producers
+and consumers, both corporate and individual. Our purpose is **to sustain a
+healthy commons of publicly shared software**. We [balance user freedom and
+developer sustainability][2], in order to protect against both [enclosure][3]
+and the [tragedy of the commons][4]. We utilize two mechanisms: [licensing][5],
+and the [Fair Share][6]. We recognize both [Open Source Projects][7] and [Open
+Products][8] as legitimate, and we celebrate software sharing and
+sustainability wherever we see it, whether from members of Software Commons or
+not.
 
-<h1>About Software Commons</h1>
-
-<p>Software Commons is <a href="./bylaws/">a multi-stakeholder cooperative</a>
-of software producers and consumers, both corporate and individual. Our purpose
-is <b>to sustain a healthy commons of publicly shared software</b>. We <a
-href="https://blog.sentry.io/sentrys-open-source-values/">balance user freedom
-and developer sustainability</a>, in order to protect against both <a
-href="https://en.wikipedia.org/wiki/Enclosure">enclosure</a> and the <a
-href="https://en.wikipedia.org/wiki/Tragedy_of_the_commons">tragedy of the
-commons</a>. We utilize two mechanisms: <a
-href="/about/licensing">licensing</a>, and the <a href="./fair-share/">Fair
-Share</a>. We recognize both <a href="./open-source-projects/">Open Source
-Projects</a> and <a href="./open-products/">Open Products</a> as
-legitimate, and we celebrate software sharing and sustainability wherever we
-see it, whether from members of Software Commons or not.</p>
+[1]: ./bylaws/
+[2]: https://blog.sentry.io/sentrys-open-source-values/
+[3]: https://en.wikipedia.org/wiki/Enclosure
+[4]: https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+[5]: /about/licensing
+[6]: ./fair-share/
+[7]: ./open-source-projects/
+[8]: ./open-products/
 
 
-<h2>Comparison with Creative Commons</h2>
+## Comparison with Creative Commons
 
-<p>
-  Software Commons is like
-  <a href="https://creativecommons.org/">Creative Commons</a> for
-  software. Creative Commons is explicitly
-  <a
-    href="https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software"
-    ><i>not</i> for software</a
-  >, but encompasses a range of sharing practices for creative works. The Creative Commons motto is, &ldquo;<a
-    href="https://creativecommons.org/faq/#what-does-some-rights-reserved-mean"
-    >Some rights reserved</a
-  >,&rdquo; and it includes licenses that
-  <a href="https://creativecommons.org/licenses/by-nc/4.0/"
-    >restrict commercial use</a
-  >, and licenses that
-  <a href="https://creativecommons.org/licenses/by-nd/4.0/"
-    >restrict modification</a
-  >. Software Commons encompasses a similar range of sharing practices for software.
-</p>
+Software Commons is like [Creative Commons][9] for software. Creative Commons
+is explicitly [_not_ for software][10], but encompasses a range of sharing
+practices for creative works. The Creative Commons motto is, &ldquo;[Some
+rights reserved][11],&rdquo; and it includes licenses that [restrict commercial
+use][12], and licenses that [restrict modification][13]. Software Commons
+encompasses a similar breadth of sharing practices for software.
 
-<h2>Comparison with the Open Source Initiative</h2>
+[9]: https://creativecommons.org/
+[10]: https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software
+[11]: https://creativecommons.org/faq/#what-does-some-rights-reserved-mean
+[12]: https://creativecommons.org/licenses/by-nc/4.0/
+[13]: https://creativecommons.org/licenses/by-nd/4.0/
 
-<p>
 
-  The <a href="https://opensource.org/">Open Source Initiative</a> was founded
-in 1998 to popularize the <a
-href="https://www.gnu.org/philosophy/free-sw.en.html">Free Software</a>
-movement. The Free and Open Source Software (FOSS) movement is built on user
-freedom as its sole value.  From a commons standpoint, therefore, while FOSS
-protects against enclosure, it does not protect against harmful free-riding and
-the tragedy of the commons. Software Commons includes <a
-href="./open-source-projects/">Open Source projects</a>, and through the <a
-href="./fair-share/">Fair Share</a> we protect FOSS against the tragedy of the
-commons, while also protecting against enclosure through <a href="./licensing/">licensing</a>.
+## Comparison with the Open Source Initiative
 
-</p>
+The [Open Source Initiative][14] was founded in 1998 to popularize the [Free
+Software][15] movement. The Free and Open Source Software (FOSS) movement is
+built on user freedom as its sole value. From a commons standpoint, therefore,
+while FOSS protects against enclosure, it does not protect against harmful
+free-riding and the tragedy of the commons. Software Commons includes [Open
+Source projects][16], and through the [Fair Share][17] we protect FOSS against
+the tragedy of the commons, while also protecting against enclosure through
+[licensing][18].
 
-{% endblock %}
+[14]: https://opensource.org/
+[15]: https://www.gnu.org/philosophy/free-sw.en.html
+[16]: ./open-source-projects/
+[17]: ./fair-share/
+[18]: ./licensing/

@@ -1,50 +1,43 @@
 homepage = True
 [---]
-{% extends 'base.html' %}
-{% block content %}
-
-<h1>Software Commons</h1>
+# Software Commons
 
 <img class="meadow" src="/softwarecommons.background.webp">
 
-<blockquote>
-  The <i>software commons</i> consists of all computer software which is
-  available at little or no cost and which can be reused with few
-  restrictions. It includes open source software[.] However the commons
-  also includes software outside of these categories[.]
-</blockquote>
+> The _software commons_ consists of all computer software which is
+> available at little or no cost and which can be reused with few
+> restrictions. It includes open source software[.] However the commons
+> also includes software outside of these categories[.]
 
-<p>
-  (<a
-    href="https://en.wikipedia.org/w/index.php?title=Information_commons&oldid=1186082015#Software_commons"
-    >Wikipedia</a
-  >)
-</p>
+([Wikipedia][1])
 
-<h2>Pitch</h2>
+[1]: https://en.wikipedia.org/w/index.php?title=Information_commons&oldid=1186082015#Software_commons
 
-<p> Public software sharing is great, for <a
-  href="https://chat.openai.com/share/f6a2f760-f3e8-485d-a61e-ff834cbc95d3">a
-  number of reasons</a>. But like any <a
-  href="https://en.wikipedia.org/wiki/Commons">commons</a>,
-the commons of publicly shared software must be protected against two
-threats:</p>
+## Pitch
 
-<ul>
-  <li><a href="https://en.wikipedia.org/wiki/Enclosure"><b>enclosure</b></a>, a minority gaining control and unfairly limiting access to others; and</li>
-  <li><a href="https://en.wikipedia.org/wiki/Tragedy_of_the_commons"><b>tragedy</b> of the commons</a>, the majority using more than their fair share, degrading and possibly even destroying the commons.</li>
-</ul>
+Public software sharing is great, for [a number of reasons][2]. But like any
+[commons][3], the commons of publicly shared software must be protected against
+two threats:
 
-<p>In the former case there are <i>too many</i> restrictions, in the latter
-there are <i>too few</i>. Managing a healthy, sustainable commons means
-balancing between the two extremes, and Software Commons does so using two
-mechanisms: <a href="/about/licensing">licensing</a>, and the <a
-href="/about/fair-share">Fair Share</a>. We recognize both <a
-href="/about/open-source-projects">Open Source Projects</a> and <a
-href="/about/open-products">Open Products</a> as legitimate.</p>
+- [**enclosure**][4], a minority gaining control and unfairly limiting access
+  to others; and
+- [**tragedy** of the commons][5], the majority using more than their fair
+  share, degrading and possibly even destroying the commons.
 
-<p>Read more <a href="/about/">about Software Commons</a>.</p>
+In the former case there are _too many_ restrictions, in the latter there are
+_too few_. Managing a healthy, sustainable commons means balancing between the
+two extremes, and Software Commons does so using two mechanisms:
+[licensing][6], and the [Fair Share][7]. We recognize both [Open Source
+Projects][8] and [Open Products][9] as legitimate.
 
-{% endblock %}
+Read more [about Software Commons][10].
 
-<h2></h2>
+[2]: https://chat.openai.com/share/f6a2f760-f3e8-485d-a61e-ff834cbc95d3
+[3]: https://en.wikipedia.org/wiki/Commons
+[4]: https://en.wikipedia.org/wiki/Enclosure
+[5]: https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+[6]: /about/licensing/
+[7]: /about/fair-share/
+[8]: /about/open-source-projects/
+[9]: /about/open-products/
+[10]: /about/

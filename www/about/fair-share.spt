@@ -1,8 +1,5 @@
-title = "Licensing"
+title = "Fair Share"
 [---] text/html
-{% extends 'base.html' %}
-{% block content %}
 
-<p>Licensing is one of two approaches that Software Commons takes to manage </p>
-
-{% endblock %}
+The Fair Share is one of two approaches that Software Commons takes to sustain
+a healthy commons of public software.

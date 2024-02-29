@@ -1,8 +1,9 @@
-from __future__ import absolute_import, division, print_function, unicode_literals
-
 import inspect
 import os
 
+import mistune
+from mistune.renderers.html import HTMLRenderer as MistuneRenderer
+from mistune_contrib.toc import TocMixin
 from aspen.request_processor import RequestProcessor as AspenRequestProcessor, DispatchStatus
 from aspen.http.request import Path as AspenPath
 from aspen.simplates.renderers import Renderer, Factory
@@ -38,10 +39,11 @@ def install(*a, **kw):
         if 'changes_reload' not in kw:
             kw['changes_reload'] = settings.DEBUG
         if 'renderer_default' not in kw:
-            kw['renderer_default'] = 'django'
+            kw['renderer_default'] = 'markdown_then_django'
 
         # Instantiate and configure.
         arp = AspenRequestProcessor(*a, **kw)
+        Simplate.renderer_factories['markdown_then_django'] = MarkdownRendererFactory(arp)
         Simplate.renderer_factories['django'] = AspenDjangoRendererFactory(arp)
     return arp
 
@@ -80,3 +82,30 @@ def view(django_request):
         assert output.charset
         body = body.encode(output.charset)
     return DjangoResponse(content=body, content_type=output.media_type)
+
+
+# setup Markdown rendering, with anchors for headers
+class TocRenderer(TocMixin, MistuneRenderer):
+    pass
+toc = TocRenderer(escape=False)
+markdown = mistune.Markdown(renderer=toc)
+
+def gfm(md):
+    toc.reset_toc()
+    html = markdown(md)
+    return html
+
+wrapper = """
+{{% extends "base.html" %}}
+{{% block content %}}
+{}
+{{% endblock %}}
+"""
+
+class MarkdownRenderer(AspenDjangoRenderer):
+    def compile(self, filepath, raw):
+        raw = wrapper.format(gfm(raw))
+        return AspenDjangoRenderer.compile(self, filepath, raw)
+
+class MarkdownRendererFactory(AspenDjangoRendererFactory):
+    Renderer = MarkdownRenderer

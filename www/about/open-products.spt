@@ -1,8 +1,3 @@
-title = "Licensing"
+title = "Open Products"
 [---] text/html
-{% extends 'base.html' %}
-{% block content %}
-
-<p>Licensing is one of two approaches that Software Commons takes to manage </p>
-
-{% endblock %}
+There is a such a thing as Open Products.
