@@ -69,4 +69,4 @@ def view(django_request):
     if type(body) is not type(b''):
         assert output.charset
         body = body.encode(output.charset)
-    return DjangoResponse(content=body)
+    return DjangoResponse(content=body, content_type=output.media_type)
