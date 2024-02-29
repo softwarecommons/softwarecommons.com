@@ -1,6 +1,8 @@
 import os
 from pathlib import Path
 
+import django_aspen
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -24,6 +26,8 @@ if 'SENTRY_DSN' in os.environ:
 		dsn=os.environ['SENTRY_DSN'],
 		enable_tracing=True,
 	)
+
+ASPEN_REQUEST_PROCESSOR = django_aspen.install(project_root=BASE_DIR, www_root=BASE_DIR / 'www')
 
 
 # Application definition

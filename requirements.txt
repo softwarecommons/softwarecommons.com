@@ -1,12 +1,16 @@
 asgiref==3.7.2
+aspen==1.1
 certifi==2024.2.2
 dj-database-url==2.1.0
 Django==5.0.2
 django-enforce-host==1.1.0
+filesystem_tree==1.1.2
 gunicorn==21.2.0
 packaging==23.2
 psycopg2-binary==2.9.9
+python-mimeparse==1.6.0
 sentry-sdk==1.40.6
+six==1.16.0
 sqlparse==0.4.4
 typing_extensions==4.10.0
 urllib3==2.2.1
