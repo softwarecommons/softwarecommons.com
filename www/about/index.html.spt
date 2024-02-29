@@ -5,7 +5,7 @@ and consumers, both corporate and individual. Our purpose is **to sustain a
 healthy commons of publicly shared software**. We [balance user freedom and
 developer sustainability][2], in order to protect against both [enclosure][3]
 and the [tragedy of the commons][4]. We utilize two mechanisms: [licensing][5],
-and the [Fair Share][6]. We recognize both [Open Source Projects][7] and [Open
+and [Fair Share][6]. We recognize both [Open Source Projects][7] and [Open
 Products][8] as legitimate, and we celebrate software sharing and
 sustainability wherever we see it, whether from members of Software Commons or
 not.
@@ -29,6 +29,8 @@ rights reserved][11],&rdquo; and it includes licenses that [restrict commercial
 use][12], and licenses that [restrict modification][13]. Software Commons
 encompasses a similar breadth of sharing practices for software.
 
+<img src="./cc.webp">
+
 [9]: https://creativecommons.org/
 [10]: https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software
 [11]: https://creativecommons.org/faq/#what-does-some-rights-reserved-mean
@@ -38,12 +40,16 @@ encompasses a similar breadth of sharing practices for software.
 
 ## Comparison with the Open Source Initiative
 
-The [Open Source Initiative][14] was founded in 1998 to popularize the [Free
-Software][15] movement. The Free and Open Source Software (FOSS) movement is
-built on user freedom as its sole value. From a commons standpoint, therefore,
+The [Open Source Initiative][14] was founded in 1998 to popularize [Free
+Software][15]. The Free and Open Source Software (FOSS) movement is built on
+user freedom as an unparalleled moral imperative.
+
+<img src="./four-freedoms.webp">
+
+From a commons standpoint, therefore,
 while FOSS protects against enclosure, it does not protect against harmful
 free-riding and the tragedy of the commons. Software Commons includes [Open
-Source projects][16], and through the [Fair Share][17] we protect FOSS against
+Source projects][16], and through [Fair Share][17] we protect FOSS against
 the tragedy of the commons, while also protecting against enclosure through
 [licensing][18].
 

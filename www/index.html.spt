@@ -2,7 +2,7 @@ homepage = True
 [---]
 # Software Commons
 
-<img class="meadow" src="/softwarecommons.background.webp">
+<img class="full" src="/softwarecommons.background.webp">
 
 > The _software commons_ consists of all computer software which is
 > available at little or no cost and which can be reused with few
@@ -27,7 +27,7 @@ two threats:
 In the former case there are _too many_ restrictions, in the latter there are
 _too few_. Managing a healthy, sustainable commons means balancing between the
 two extremes, and Software Commons does so using two mechanisms:
-[licensing][6], and the [Fair Share][7]. We recognize both [Open Source
+[licensing][6], and [Fair Share][7]. We recognize both [Open Source
 Projects][8] and [Open Products][9] as legitimate.
 
 Read more [about Software Commons][10].

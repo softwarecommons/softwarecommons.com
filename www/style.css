@@ -57,14 +57,18 @@ ul {
 li {
   margin: 6pt 0;
 }
-.img {
-  border: solid 1px #ccc;
-  border-style: solid none;
-  padding: 36pt 0;
-}
-img.meadow {
+img {
+  display: block;
   width: 100%;
-  margin: 12pt 0;
+  margin: 12pt auto;
+  border: 1px solid #CCC;
+  border-style: solid none;
+  padding: 36pt 10%;
+}
+img.full {
+  padding: 0;
+  border: 0;
+  width: 100%;
 }
 
 @media (max-width: 832px) {
