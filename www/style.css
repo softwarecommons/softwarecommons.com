@@ -135,11 +135,17 @@ table {
   border-collapse: collapse;
   margin: 12pt 0;
 }
+tbody tr:nth-child(even) {
+  background: #EEE;
+}
 th {
   text-align: left;
-  padding: 0 12pt 12pt 0;
+  padding: 0 9pt 3pt 0;
   white-space: nowrap;
   vertical-align: top;
+}
+th:last-child {
+  padding-right: 0;
 }
 th.numeric {
   text-align: center;
@@ -148,6 +154,9 @@ td {
   padding: 0 18pt;
   text-indent: -18pt;
   vertical-align: top;
+}
+td:last-child {
+  padding-right: 6pt;
 }
 td img {
   width: 18pt;

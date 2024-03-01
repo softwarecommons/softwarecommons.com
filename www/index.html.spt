@@ -38,10 +38,10 @@ Read more [about Software Commons][8].
 <table>
     <tr>
         <th>Name</th>
-        <th class="numeric">Fair Share<br>($)</th>
-        <th class="numeric">Open Products</th>
-        <th class="numeric">Open Source<br>Projects</th>
-        <th class="numeric">Member Since<br>(Year)</th>
+        <th class="numeric">Fair Share ($)</th>
+        <th class="numeric"><a href="/about/open-products">Products</a></th>
+        <th class="numeric"><a href="/about/open-source-projects">Projects</a></th>
+        <th class="numeric">Member Since</th>
     </tr>
     {% load humanize %}
     {% for organization in organizations %}
