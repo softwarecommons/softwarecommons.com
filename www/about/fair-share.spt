@@ -3,25 +3,27 @@ title = "Fair Share"
 
 Fair Share is one of two approaches that Software Commons takes to sustain a
 healthy commons of publicly shared software. The other is
-[licensing](../licensing/). The two failure modes of a commons are enclosure
-and the tragedy of the commons. Fair Share helps with the latter.
+[licensing](../licensing/). Fair Share protects against the [tragedy of the commons][2].
 
-<div class="failures">
-    <div class="failure no">
-        <h4>Enclosure</h4>
-        <img src="../enclosure.webp">
-    </div>
-    <div class="failure">
-        <h4>Tragedy of the Commons</h4>
-        <img src="../tragedy.webp">
-    </div>
-</div>
+[1]: ../enclosure/
+[2]: ../tragedy-of-the-commons/
 
-Many people share software using Free and Open Source Software (FOSS) licenses
-that by themselves do not protect against the tragedy of the commons. Software
-Commons is a multi-stakeholder cooperative with both producers and consumers of
-software as our members. We annually negotiate a Fair Share amount that our
-FOSS consuming members pay as dues to maintain their membership. These dues
-benefit the FOSS producing organizational members, who, in order to maintain
-their membership, must redistribute at least 80% of the money they receive to
-individual contributors producing FOSS.
+<nav>
+    <a class="no" href="/about/licensing/">
+        <h4><span>Licensing</span></h4>
+        <img src="/about/img/licensing.webp">
+    </a>
+    <a href="/about/fair-share/">
+        <h4><span>Fair Share</span></h4>
+        <img src="/about/img/fair-share.webp">
+    </a>
+</nav>
+
+Many people share their software using Free and Open Source Software (FOSS)
+licenses, which offer no inherent protection against the tragedy of the
+commons. Software Commons is [a multi-stakeholder cooperative](../bylaws/) with
+both producers and consumers of FOSS as our members. We annually negotiate a
+Fair Share amount that our FOSS-consuming members pay as dues. These dues
+benefit the FOSS-producing organizational members, who, as part of our
+membership agreement, must redistribute at least 80% of the money they receive
+to individual contributors producing FOSS.

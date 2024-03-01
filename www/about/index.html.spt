@@ -7,26 +7,48 @@ healthy commons of publicly shared software**. We [balance user freedom and
 developer sustainability][2], in order to protect against both [enclosure][3]
 and the [tragedy of the commons][4].
 
-<div class="failures">
-    <div class="failure">
-        <h4>Enclosure</h4>
-        <img src="./enclosure.webp">
-    </div>
-    <div class="failure">
-        <h4>Tragedy of the Commons</h4>
-        <img src="./tragedy.webp">
-    </div>
-</div>
+<nav>
+    <a href="/about/enclosure/">
+        <h4><span>Enclosure</span></h4>
+        <img src="/about/img/enclosure.webp">
+    </a>
+    <a href="/about/tragedy-of-the-commons/">
+        <h4><span>Tragedy of the Commons</span></h4>
+        <img src="/about/img/tragedy.webp">
+    </a>
+</nav>
 
 We utilize two mechanisms: [licensing][5]
 and [Fair Share][6]. We recognize both [Open Source Projects][7] and [Open
 Products][8] as legitimate, and we celebrate sustainable software sharing in
 all forms wherever we see it, whether from members of Software Commons or not.
 
+<nav>
+    <a href="/about/licensing/">
+        <h4><span>Licensing</span></h4>
+        <img src="/about/img/licensing.webp">
+    </a>
+    <a href="/about/fair-share/">
+        <h4><span>Fair Share</span></h4>
+        <img src="/about/img/fair-share.webp">
+    </a>
+</nav>
+
+<nav>
+    <a href="/about/open-source-projects/">
+        <h4><span>Open Source Projects</span></h4>
+        <img src="/about/img/open-source-projects.webp">
+    </a>
+    <a href="/about/open-products/">
+        <h4><span>Open Products</span></h4>
+        <img src="/about/img/open-products.webp">
+    </a>
+</nav>
+
 [1]: ./bylaws/
 [2]: https://blog.sentry.io/sentrys-open-source-values/
-[3]: https://en.wikipedia.org/wiki/Enclosure
-[4]: https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+[3]: ./enclosure/
+[4]: ./tragedy-of-the-commons/
 [5]: ./licensing
 [6]: ./fair-share/
 [7]: ./open-source-projects/
@@ -43,7 +65,7 @@ sharing practices for creative works. The Creative Commons motto is,
 Software Commons encompasses a similar breadth of sharing practices for
 software.
 
-<img src="./cc.webp">
+<img src="./img/cc.webp">
 
 Unlike Software Commons, Creative Commons is an educational non-profit whose
 main work is to publish licenses. Software Commons is [a multi-stakeholder
@@ -61,9 +83,9 @@ Share][6].
 
 The [Open Source Initiative][14] was founded in 1998 to popularize [Free
 Software][15]. For the Free and Open Source Software (FOSS) movement,
-user freedom is the single overarching moral imperative.
+user freedom is a singular governing moral imperative.
 
-<img src="./four-freedoms.webp">
+<img src="./img/four-freedoms.webp">
 
 From a commons standpoint, therefore, while FOSS protects against enclosure, it
 does not protect against harmful free-riding and the tragedy of the commons. In
@@ -72,6 +94,13 @@ as [a crisis of maintainer burnout][19]. Software Commons includes [Open Source
 Projects][16], and through [Fair Share][17] we aim to address the
 sustainability crisis and protect FOSS against the tragedy of the commons,
 while continuing to protect against enclosure through [licensing][18].
+
+Software Commons does not treat software sharing as a moral or ethical
+absolute. It is fine to use closed-source or proprietary software. It is good
+to publicly share software you produce, with whatever [licensing
+restrictions][18] you like, including Copyleft. It is wonderful to share your
+software under Open Product licenses, and it is truly magnanimous to share
+software under Permissive licenses. Thank you!
 
 [14]: https://opensource.org/
 [15]: https://www.gnu.org/philosophy/free-sw.en.html

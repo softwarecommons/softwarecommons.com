@@ -1,3 +1,7 @@
+:root {
+  --purple: #551A8B;
+  --blue: #0000EE;
+}
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +23,12 @@ body {
   font-size: 16pt;
   line-height: 16pt;;
 }
+a {
+  color: var(--blue);
+}
+a:visited {
+  color: var(--purple);
+}
 h1 {
   clear: both;
   margin-top: 36pt;
@@ -35,6 +45,10 @@ h3 {
 }
 p {
   margin: 6pt 0;
+}
+b {
+  font-weight: normal;
+  background: #FF0;
 }
 blockquote {
   margin: 6pt 0;
@@ -70,42 +84,48 @@ img.full {
   border: 0;
   width: 100%;
 }
-.failures {
+nav {
   display: block;
-  margin: 12pt 0;
+  margin: -6pt 0 0;
+  columns: 2;
 }
-.failure {
+nav a {
 	display: block;
-	width: 48%;
-	float: left;
+  position: relative;
+  text-decoration: none;
 }
-.failure:nth-child(2) {
-  float: right;
-}
-.failure img {
+nav a img {
   margin: 0 0 12pt;
   padding: 0;
   border: 0;
   width: 100%;
 }
-.failure h4 {
+nav a h4 {
+  position: relative;
+  top: 20pt;
+  left: 3pt;
   text-transform: uppercase;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 10pt;
   line-height: 10pt;
   color: #999;
   margin: 0 0 3pt;
-  padding: 0;
+  padding: 0;a
 }
-.failure.no img {
+nav a h4 span {
+  color: white;
+  background: var(--blue);;
+  padding: 3pt 4pt;
+}
+nav a:visited h4 span {
+  background: var(--purple);;
+}
+nav a.no {
   filter: grayscale(1);
   opacity: 0.33;
 }
-.failure.no h4 {
-  opacity: 0.33;
-}
-.failures + p {
-  clear: both;
+nav + nav {
+  margin-top: 0;
 }
 
 @media (max-width: 832px) {

@@ -24,17 +24,17 @@ two threats:
 - [**tragedy** of the commons][5], the majority using more than their fair
   share, degrading and possibly even destroying the commons.
 
-In the former case there are _too many_ restrictions, in the latter, _too few_.
+In the former there are _too many_ restrictions, in the latter, _too few_.
 Sustaining a healthy commons means balancing between the two extremes, and
 Software Commons does so using two mechanisms: [licensing][6] and [Fair
 Share][7].
 
-Read more [about Software Commons][10].
+Read more <b>[about Software Commons][10]</b>.
 
 [2]: https://chat.openai.com/share/f6a2f760-f3e8-485d-a61e-ff834cbc95d3
 [3]: https://en.wikipedia.org/wiki/Commons
-[4]: https://en.wikipedia.org/wiki/Enclosure
-[5]: https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+[4]: /about/enclosure/
+[5]: /about/tragedy-of-the-commons/
 [6]: /about/licensing/
 [7]: /about/fair-share/
 [10]: /about/

@@ -1,3 +1,15 @@
 title = "Open Source Projects"
 [---] text/html
+
 There is such a thing as an Open Source Project.
+
+<nav>
+    <a href="/about/open-source-projects/">
+        <h4><span>Open Source Projects</span></h4>
+        <img src="/about/img/open-source-projects.webp">
+    </a>
+    <a class="no" href="/about/open-products/">
+        <h4><span>Open Products</span></h4>
+        <img src="/about/img/open-products.webp">
+    </a>
+</nav>

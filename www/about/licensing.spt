@@ -3,19 +3,22 @@ title = "Licensing"
 
 Licensing is one of two approaches that Software Commons takes to sustain a
 healthy commons of publicly shared software. The other is [Fair
-Share](../fair-share/). The two failure modes of a commons are enclosure and
-the tragedy of the commons, and licensing helps with both.
+Share](../fair-share/). Licensing protects against both [enclosure][1] and the
+[tragedy of the commons][2].
 
-<div class="failures">
-    <div class="failure">
-        <h4>Enclosure</h4>
-        <img src="../enclosure.webp">
-    </div>
-    <div class="failure">
-        <h4>Tragedy of the Commons</h4>
-        <img src="../tragedy.webp">
-    </div>
-</div>
+[1]: ../enclosure/
+[2]: ../tragedy-of-the-commons/
+
+<nav>
+    <a href="/about/licensing/">
+        <h4><span>Licensing</span></h4>
+        <img src="/about/img/licensing.webp">
+    </a>
+    <a class="no" href="/about/fair-share/">
+        <h4><span>Fair Share</span></h4>
+        <img src="/about/img/fair-share.webp">
+    </a>
+</nav>
 
 A license is a legal agreement. Through licensing, software producers grant
 permissions to others to use the software they produce. The license is what
@@ -34,11 +37,12 @@ protect against enclosure but not the tragedy of the commons.
 1. [**Open Product**](../open-products/) licenses generally restrict commercial
    *use that would undermine the producer* of the software. They more or less
 equally prioritize user freedom and developer sustainability, so they protect
-equally against both enclosure and the tragedy of the commons.
+equally against both enclosure and the tragedy of the commons. They free up
+companies to share software that would otherwise be closed.
 
-Software Commons does not make of software sharing a moral or ethical issue. It
-is fine to use closed-source or proprietary software. It is good to publicly
-share software you produce, with whatever restrictions you like, including
-Copyleft licenses. It is wonderful to share your software under Open Product
-licenses, and it is truly magnanimous to share software under Permissive
-licenses.
+Software Commons does not treat software sharing as a moral or ethical
+absolute. It is fine to use closed-source or proprietary software. It is good
+to publicly share software you produce, with whatever restrictions you like,
+including Copyleft licenses. It is wonderful to share your software under Open
+Product licenses, and it is truly magnanimous to share software under
+Permissive licenses. Thank you!
