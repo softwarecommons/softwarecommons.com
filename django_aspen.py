@@ -20,7 +20,6 @@ from django.template.context import Context as DjangoContext
 class NoProjectRoot(Exception):
     pass
 
-
 def install(*a, **kw):
     """Install Aspen into a Django app.
     """
@@ -47,7 +46,6 @@ def install(*a, **kw):
         Simplate.renderer_factories['django'] = AspenDjangoRendererFactory(arp)
     return arp
 
-
 class AspenDjangoRenderer(Renderer):
 
     def compile(self, fspath, raw):
@@ -57,10 +55,15 @@ class AspenDjangoRenderer(Renderer):
         django_context = DjangoContext(aspen_context)
         return self.compiled.render(django_context)
 
-
 class AspenDjangoRendererFactory(Factory):
     Renderer = AspenDjangoRenderer
 
+class Redirect(Exception):
+    def __init__(self, to):
+        self.to = to
+
+def redirect(to):
+    raise Redirect(to)
 
 def view(django_request):
     aspen_path = AspenPath(django_request.path)
@@ -69,11 +72,14 @@ def view(django_request):
         # Redirect to trailing slash (I thought this was upstream in Aspen?).
         return DjangoRedirect(aspen_path.decoded + '/')
     arp = settings.ASPEN_REQUEST_PROCESSOR
-    state = arp.process( aspen_path
-                       , django_request.GET
-                       , django_request.META.get('HTTP_ACCEPT', None)
-                       , {'request': django_request}
-                        )
+    try:
+        state = arp.process( aspen_path
+                           , django_request.GET
+                           , django_request.META.get('HTTP_ACCEPT', None)
+                           , {'request': django_request, 'path': aspen_path}
+                            )
+    except Redirect as redirect:
+        return DjangoRedirect(redirect.to)
     dispatch_result, _, output = state
     if dispatch_result.status == DispatchStatus.missing:
         return DjangoNotFound()

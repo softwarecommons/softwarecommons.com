@@ -33,21 +33,21 @@ Read more [about Software Commons][8].
     <tr>
         <th>Name</th>
         <th class="numeric">Fair Share ($)</th>
-        <th class="numeric"><a href="/about/open-products">Products</a></th>
         <th class="numeric"><a href="/about/open-source-projects">Projects</a></th>
+        <th class="numeric"><a href="/about/open-products">Products</a></th>
         <th class="numeric">Member Since</th>
     </tr>
     {% load humanize %}
     {% for organization in organizations %}
     <tr>
         <td><img src="{{ organization.img_src }}"><a href="/members/{{ organization.slug }}/">{{ organization.name }}</a></td>
-        {% if organization.current_fair_share %}
+        {% if organization.current_fair_share > 0 %}
         <td class="numeric">{{ organization.current_fair_share|intcomma }}</a></td>
         {% else %}
-        <td class="numeric">n/a</a></td>
+        <td class="numeric">{{ organization.current_fair_share|intcomma }}</a></td>
         {% endif %}
-        <td class="numeric">{{ organization.nproducts }}</a></td>
         <td class="numeric">{{ organization.nprojects }}</a></td>
+        <td class="numeric">{{ organization.nproducts }}</a></td>
         <td class="numeric">{{ organization.member_since }}</a></td>
     </tr>
     {% endfor %}

@@ -1,0 +1,34 @@
+from app.models import Organization
+from django_aspen import redirect
+
+slug = path['slug']
+if not slug:
+    redirect('..')
+elif slug.endswith('/'):
+    slug = slug[:-1]
+organization = Organization.objects.get(slug=slug)
+title = organization.name
+[---] text/html
+{% load humanize %}
+<img class="logo" src="{{ organization.img_src }}">
+<style>
+    img.logo {
+      width: 10%;
+      margin: 0 12pt 0 0;
+      padding: 0;
+      border: 0;
+      float: left;
+    }
+    table {
+        margin: 0;
+    }
+    td {
+        text-align: right;
+    }
+</style>
+<table>
+    <tr><th>Fair Share ($)</th><td>{{ organization.current_fair_share|intcomma }}</td></tr>
+    <tr><th>Open Source Projects</th><td>{{ organization.nprojects }}</td></tr>
+    <tr><th>Open Products</th><td>{{ organization.nproducts }}</td></tr>
+    <tr><th>Member Since</th><td>{{ organization.member_since }}</td></tr>
+</table>
