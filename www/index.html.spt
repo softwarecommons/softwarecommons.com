@@ -13,21 +13,14 @@ homepage = True
 
 [1]: https://en.wikipedia.org/w/index.php?title=Information_commons&oldid=1186082015#Software_commons
 
-## Pitch
+## About Software Commons
 
 Public software sharing is great, for [a number of reasons][2]. But like any
 [commons][3], the commons of publicly shared software must be protected against
-two threats:
-
-- [**enclosure**][4], a minority gaining control and unfairly limiting access
-  to others; and
-- [**tragedy** of the commons][5], the majority using more than their fair
-  share, degrading and possibly even destroying the commons.
-
-In the former there are _too many_ restrictions, in the latter, _too few_.
-Sustaining a healthy commons means balancing between the two extremes, and
-Software Commons does so using two mechanisms: [licensing][6] and [Fair
-Share][7].
+two threats: [enclosure][4] and the [tragedy of the commons][5]; _too many_
+restrictions and  _too few_. Sustainably sharing society's software means
+balancing between the two extremes, and Software Commons does so using two
+mechanisms: [licensing][6] and [Fair Share][7].
 
 Read more <b>[about Software Commons][10]</b>.
 
