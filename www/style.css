@@ -70,6 +70,43 @@ img.full {
   border: 0;
   width: 100%;
 }
+.failures {
+  display: block;
+  margin: 12pt 0;
+}
+.failure {
+	display: block;
+	width: 48%;
+	float: left;
+}
+.failure:nth-child(2) {
+  float: right;
+}
+.failure img {
+  margin: 0 0 12pt;
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
+.failure h4 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 10pt;
+  line-height: 10pt;
+  color: #999;
+  margin: 0 0 3pt;
+  padding: 0;
+}
+.failure.no img {
+  filter: grayscale(1);
+  opacity: 0.33;
+}
+.failure.no h4 {
+  opacity: 0.33;
+}
+.failures + p {
+  clear: both;
+}
 
 @media (max-width: 832px) {
   body {

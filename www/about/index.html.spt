@@ -5,7 +5,20 @@ Software Commons is [a multi-stakeholder cooperative][1] of software producers
 and consumers, both corporate and individual. Our purpose is **to sustain a
 healthy commons of publicly shared software**. We [balance user freedom and
 developer sustainability][2], in order to protect against both [enclosure][3]
-and the [tragedy of the commons][4]. We utilize two mechanisms: [licensing][5]
+and the [tragedy of the commons][4].
+
+<div class="failures">
+    <div class="failure">
+        <h4>Enclosure</h4>
+        <img src="./enclosure.webp">
+    </div>
+    <div class="failure">
+        <h4>Tragedy of the Commons</h4>
+        <img src="./tragedy.webp">
+    </div>
+</div>
+
+We utilize two mechanisms: [licensing][5]
 and [Fair Share][6]. We recognize both [Open Source Projects][7] and [Open
 Products][8] as legitimate, and we celebrate sustainable software sharing in
 all forms wherever we see it, whether from members of Software Commons or not.

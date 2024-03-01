@@ -4,24 +4,37 @@ title = "Licensing"
 Licensing is one of two approaches that Software Commons takes to sustain a
 healthy commons of publicly shared software. The other is [Fair
 Share](../fair-share/). The two failure modes of a commons are enclosure and
-the tragedy of the commons, and licensing helps us with both.
+the tragedy of the commons, and licensing helps with both.
+
+<div class="failures">
+    <div class="failure">
+        <h4>Enclosure</h4>
+        <img src="../enclosure.webp">
+    </div>
+    <div class="failure">
+        <h4>Tragedy of the Commons</h4>
+        <img src="../tragedy.webp">
+    </div>
+</div>
 
 A license is a legal agreement. Through licensing, software producers grant
 permissions to others to use the software they produce. The license is what
 gives software consumers confidence that they do in fact have permission to use
 the software, given certain restrictions. The restrictions in a license encode
-a certain balance between user freedom and developer sustainability, and there
-are different approaches. Software Commons recognizes two broad classes of
-licensing, based on what kind of restrictions they impose:
+an intended balance between user freedom and developer sustainability, and
+there are different approaches. Software Commons recognizes two broad classes
+of licensing, based on what kind of restrictions they impose:
 
 1. [**Free and Open Source Software**](../open-source-projects/) (FOSS)
-   licenses generally restrict use without attribution ("Permissive" licenses)
-or use without sharing alike ("Copyleft" licenses). They more or less only
-prioritize user freedom and not developer sustainability.
+   licenses generally restrict *use without attribution* ("Permissive"
+licenses) or *use without sharing alike* ("Copyleft" licenses). They more or
+less only prioritize user freedom and not developer sustainability, so they
+protect against enclosure but not the tragedy of the commons.
 
 1. [**Open Product**](../open-products/) licenses generally restrict commercial
-   use that would undermine the producer of the software. They more or less
-equally prioritize user freedom and developer sustainability.
+   *use that would undermine the producer* of the software. They more or less
+equally prioritize user freedom and developer sustainability, so they protect
+equally against both enclosure and the tragedy of the commons.
 
 Software Commons does not make of software sharing a moral or ethical issue. It
 is fine to use closed-source or proprietary software. It is good to publicly

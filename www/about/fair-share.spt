@@ -4,12 +4,24 @@ title = "Fair Share"
 Fair Share is one of two approaches that Software Commons takes to sustain a
 healthy commons of publicly shared software. The other is
 [licensing](../licensing/). The two failure modes of a commons are enclosure
-and the tragedy of the commons, and Fair Share helps us with the latter.
+and the tragedy of the commons. Fair Share helps with the latter.
+
+<div class="failures">
+    <div class="failure no">
+        <h4>Enclosure</h4>
+        <img src="../enclosure.webp">
+    </div>
+    <div class="failure">
+        <h4>Tragedy of the Commons</h4>
+        <img src="../tragedy.webp">
+    </div>
+</div>
 
 Many people share software using Free and Open Source Software (FOSS) licenses
-that do not adequately protect against the tragedy of the commons. Software
+that by themselves do not protect against the tragedy of the commons. Software
 Commons is a multi-stakeholder cooperative with both producers and consumers of
 software as our members. We annually negotiate a Fair Share amount that our
-software consumer members pay as dues to maintain their membership. These dues
-benefit the FOSS producing members, with at least 80% of the money going
-to individual contributors producing FOSS.
+FOSS consuming members pay as dues to maintain their membership. These dues
+benefit the FOSS producing organizational members, who, in order to maintain
+their membership, must redistribute at least 80% of the money they receive to
+individual contributors producing FOSS.
