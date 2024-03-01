@@ -3,7 +3,8 @@ title = "Open Source Projects"
 
 Free and Open Source Software (FOSS) Projects are the major part of the
 publicly shared software in our society ([Open Products](../open-products/) are
-another).
+another). An Open Source Project is any software project published under a
+license approved by the Open Source Initiative.
 
 <nav>
     <a href="/about/open-source-projects/">
@@ -94,4 +95,4 @@ Products](../open-products/).
 [13]: https://anonymoushash.vmbrasseur.com/2018/08/24/open-source-is-not-a-business-model-and-your-business-will-fail-if-you-think-that-it-is/
 [14]: https://opensource.org/license/apache-2-0
 [15]: https://opensource.org/license/mit
-[16]: https://opensource.org/license/gpl-3.0-only
+[16]: https://opensource.org/license/gpl-3-0

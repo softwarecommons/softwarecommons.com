@@ -3,17 +3,17 @@ title = "Tragedy of the Commons"
 
 Tragedy of the commons is one of two ways a commons can fail, through _too few
 restrictions_ (the other way is [enclosure](../enclosure/)). We protect against
-the tragedy of the commons through [licensing](../licensing/) and [Fair
-Share](../fair-share/).
+the tragedy of the commons through [Fair
+Share](../fair-share/) and [licensing](../licensing/).
 
 <nav>
-    <a class="no" href="/about/enclosure/">
-        <h4><span>Enclosure</span></h4>
-        <img src="/about/img/enclosure.webp">
-    </a>
     <a href="/about/tragedy-of-the-commons/">
         <h4><span>Tragedy of the Commons</span></h4>
         <img src="/about/img/tragedy.webp">
+    </a>
+    <a class="no" href="/about/enclosure/">
+        <h4><span>Enclosure</span></h4>
+        <img src="/about/img/enclosure.webp">
     </a>
 </nav>
 

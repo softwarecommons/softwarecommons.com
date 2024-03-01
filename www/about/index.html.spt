@@ -2,37 +2,11 @@ title = 'About Software Commons'
 [---]
 
 Software Commons is [a multi-stakeholder cooperative][1] of software producers
-and consumers, both corporate and individual. Our purpose is **to sustainably
-share society's software**. We [balance user freedom and developer
-sustainability][2], in order to protect against both [enclosure][3] and the
-[tragedy of the commons][4].
-
-<nav>
-    <a href="/about/enclosure/">
-        <h4><span>Enclosure</span></h4>
-        <img src="/about/img/enclosure.webp">
-    </a>
-    <a href="/about/tragedy-of-the-commons/">
-        <h4><span>Tragedy of the Commons</span></h4>
-        <img src="/about/img/tragedy.webp">
-    </a>
-</nav>
-
-We utilize two mechanisms: [licensing][5] and [Fair Share][6]. We recognize
-both [Open Source Projects][7] and [Open Products][8] as legitimate, and <b>we
-celebrate sustainable software sharing in all forms</b> wherever we see it,
-whether from members of Software Commons or not.
-
-<nav>
-    <a href="/about/licensing/">
-        <h4><span>Licensing</span></h4>
-        <img src="/about/img/licensing.webp">
-    </a>
-    <a href="/about/fair-share/">
-        <h4><span>Fair Share</span></h4>
-        <img src="/about/img/fair-share.webp">
-    </a>
-</nav>
+and consumers. Our purpose is **to sustainably
+share society's software**. We recognize both [Open Source Projects][7] and
+[Open Products][8] as legitimate ways to accomplish this, and <b>we celebrate
+sustainable software sharing in all forms</b> wherever we see it, whether from
+members of Software Commons or not.
 
 <nav>
     <a href="/about/open-source-projects/">
@@ -45,8 +19,39 @@ whether from members of Software Commons or not.
     </a>
 </nav>
 
+## Initiatives
+
+The two main initiatives we run are [Fair Share][6] and [licensing][5].
+
+<nav>
+    <a href="/about/fair-share/">
+        <h4><span>Fair Share</span></h4>
+        <img src="/about/img/fair-share.webp">
+    </a>
+    <a href="/about/licensing/">
+        <h4><span>Licensing</span></h4>
+        <img src="/about/img/licensing.webp">
+    </a>
+</nav>
+
+## Concerns
+
+The two main concerns we protect against are the [tragedy of the
+commons][4] and [enclosure][3].
+
+<nav>
+    <a href="/about/tragedy-of-the-commons/">
+        <h4><span>Tragedy of the Commons</span></h4>
+        <img src="/about/img/tragedy.webp">
+    </a>
+    <a href="/about/enclosure/">
+        <h4><span>Enclosure</span></h4>
+        <img src="/about/img/enclosure.webp">
+    </a>
+</nav>
+
+
 [1]: ./bylaws/
-[2]: https://blog.sentry.io/sentrys-open-source-values/
 [3]: ./enclosure/
 [4]: ./tragedy-of-the-commons/
 [5]: ./licensing

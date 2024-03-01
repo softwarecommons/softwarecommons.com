@@ -7,13 +7,13 @@ commons](../tragedy-of-the-commons/)). We protect against enclosure (as well as
 the tragedy of the commons) through [licensing](../licensing/).
 
 <nav>
-    <a href="/about/enclosure/">
-        <h4><span>Enclosure</span></h4>
-        <img src="/about/img/enclosure.webp">
-    </a>
     <a class="no" href="/about/tragedy-of-the-commons/">
         <h4><span>Tragedy of the Commons</span></h4>
         <img src="/about/img/tragedy.webp">
+    </a>
+    <a href="/about/enclosure/">
+        <h4><span>Enclosure</span></h4>
+        <img src="/about/img/enclosure.webp">
     </a>
 </nav>
 
@@ -43,10 +43,10 @@ relicensing. Successful instances of this pattern include:
 These examples demonstrate the power of Free and Open Source Software (FOSS)
 licensing to protect against enclosure.
 
-Open Product licenses can offer some, more limited, protections against
-enclosure. For example, the [Functional Source License][8] guarantees that
-software will be available under a FOSS license after two years. The real power
-of Open Product licenses is to incentivize <u>dis</u>closure: they make it
+Open Product licenses also offer some protections against enclosure. For
+example, the [Functional Source License][8] guarantees that software will be
+available under a Permissive FOSS license after two years. The real power of
+Open Product licenses is to incentivize <u>dis</u>closure: they make it
 possible for companies to share software in some fashion that they otherwise
 would not share at all.
 

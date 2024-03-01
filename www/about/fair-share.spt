@@ -1,21 +1,21 @@
 title = "Fair Share"
 [---] text/html
 
-Fair Share is one of two approaches that Software Commons takes to sustain a
-healthy commons of publicly shared software (the other is [licensing][1]). Fair
-Share protects against the [tragedy of the commons][2].
+Fair Share is one of two approaches that Software Commons takes to sustainably
+share society's software (the other is [licensing][1]). Fair Share protects
+against the [tragedy of the commons][2].
 
 [1]: ../licensing/
 [2]: ../tragedy-of-the-commons/
 
 <nav>
-    <a class="no" href="/about/licensing/">
-        <h4><span>Licensing</span></h4>
-        <img src="/about/img/licensing.webp">
-    </a>
     <a href="/about/fair-share/">
         <h4><span>Fair Share</span></h4>
         <img src="/about/img/fair-share.webp">
+    </a>
+    <a class="no" href="/about/licensing/">
+        <h4><span>Licensing</span></h4>
+        <img src="/about/img/licensing.webp">
     </a>
 </nav>
 
