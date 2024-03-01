@@ -17,21 +17,15 @@ organizations = Organization.objects.all()
 
 ## About Software Commons
 
-Public software sharing is great, for [a number of reasons][2]. But like any
-[commons][3], the commons of publicly shared software must be protected against
-two threats: [enclosure][4] and the [tragedy of the commons][5]; _too many_
-restrictions and  _too few_. Sustainably sharing society's software means
-balancing between the two extremes, and Software Commons does so using two
-mechanisms: [licensing][6] and [Fair Share][7].
+Software Commons **sustainably shares society's software**, both [Open Source
+Projects][3] and [Open Products][4]. We celebrate sustainable software sharing
+in all forms.
 
 Read more [about Software Commons][8].
 
 [2]: https://chat.openai.com/share/f6a2f760-f3e8-485d-a61e-ff834cbc95d3
-[3]: https://en.wikipedia.org/wiki/Commons
-[4]: /about/enclosure/
-[5]: /about/tragedy-of-the-commons/
-[6]: /about/licensing/
-[7]: /about/fair-share/
+[3]: /about/open-source-projects/
+[4]: /about/open-products/
 [8]: /about/
 
 ## Members
