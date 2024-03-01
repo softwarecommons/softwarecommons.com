@@ -88,12 +88,12 @@ user freedom is a singular governing moral imperative.
 <img src="./img/four-freedoms.webp">
 
 From a commons standpoint, therefore, while FOSS protects against enclosure, it
-does not protect against harmful free-riding and the tragedy of the commons. In
-the FOSS ecosystem, the tragedy of the commons has in fact arrived, manifesting
-as [a crisis of maintainer burnout][19]. Software Commons includes [Open Source
-Projects][16], and through [Fair Share][17] we aim to address the
-sustainability crisis and protect FOSS against the tragedy of the commons,
-while continuing to protect against enclosure through [licensing][18].
+does not protect against the tragedy of the commons. In the FOSS ecosystem, the
+tragedy of the commons has in fact arrived, manifesting as [a crisis of
+maintainer burnout][19]. Software Commons includes [Open Source Projects][16],
+and through [Fair Share][17] we aim to address the sustainability crisis and
+protect FOSS against the tragedy of the commons, while continuing to protect
+against enclosure through [licensing][18].
 
 Software Commons does not treat software sharing as a moral or ethical
 absolute. It is fine to use closed-source or proprietary software. It is good
