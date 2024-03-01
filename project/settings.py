@@ -13,7 +13,7 @@ if 'SECRET_KEY' in os.environ:
 	SECRET_KEY = os.environ['SECRET_KEY']
 
 if 'FLY_APP_NAME' in os.environ:
-    ENFORCE_HOST = 'new.softwarecommons.com'
+    ENFORCE_HOST = 'draft.softwarecommons.com'
     ALLOWED_HOSTS = [ENFORCE_HOST, f'{os.environ["FLY_APP_NAME"]}.fly.dev']
     CSRF_TRUSTED_ORIGINS = [f'https://{ENFORCE_HOST}']
 else:

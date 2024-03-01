@@ -47,19 +47,22 @@ Share][6].
 ## Comparison with the Open Source Initiative
 
 The [Open Source Initiative][14] was founded in 1998 to popularize [Free
-Software][15]. The Free and Open Source Software (FOSS) movement is built on
-user freedom as an overarching moral imperative.
+Software][15]. For the Free and Open Source Software (FOSS) movement,
+user freedom is the single overarching moral imperative.
 
 <img src="./four-freedoms.webp">
 
 From a commons standpoint, therefore, while FOSS protects against enclosure, it
-does not protect against harmful free-riding and the tragedy of the commons.
-Software Commons includes [Open Source Projects][16], and through [Fair
-Share][17] we protect FOSS against the tragedy of the commons, while continuing
-to protect against enclosure through [licensing][18].
+does not protect against harmful free-riding and the tragedy of the commons. In
+the FOSS ecosystem, the tragedy of the commons has in fact arrived, manifesting
+as [a crisis of maintainer burnout][19]. Software Commons includes [Open Source
+Projects][16], and through [Fair Share][17] we aim to address the
+sustainability crisis and protect FOSS against the tragedy of the commons,
+while continuing to protect against enclosure through [licensing][18].
 
 [14]: https://opensource.org/
 [15]: https://www.gnu.org/philosophy/free-sw.en.html
 [16]: ./open-source-projects/
 [17]: ./fair-share/
 [18]: ./licensing/
+[19]: https://openpath.chadwhitacre.com/2024/the-open-source-sustainability-crisis/#what-is-the-sustainability-crisis
