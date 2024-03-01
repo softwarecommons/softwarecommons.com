@@ -2,10 +2,11 @@ title = "Licensing"
 [---] text/html
 
 Licensing is one of two approaches that Software Commons takes to sustain a
-healthy commons of publicly shared software. The other is [Fair
-Share](../fair-share/). Licensing protects against both [enclosure][1] and the
-[tragedy of the commons][2].
+healthy commons of publicly shared software (the other is [Fair Share][0]).
+Licensing protects against both [enclosure][1] and the [tragedy of the
+commons][2].
 
+[0]: ../fair-share/
 [1]: ../enclosure/
 [2]: ../tragedy-of-the-commons/
 
