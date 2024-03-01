@@ -1,7 +1,9 @@
 title = "Open Products"
 [---] text/html
 
-There is a such a thing as Open Products.
+Open Products are an important part of the publicly shared software in our
+society (the largest part are [Open Source
+Projects](../open-source-projects/)).
 
 <nav>
     <a class="no" href="/about/open-source-projects/">
