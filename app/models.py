@@ -10,7 +10,12 @@ class Year(models.Model):
 
 class Organization(models.Model):
     name = models.CharField(max_length=256)
+    slug = models.SlugField(max_length=256, default='')
     img_src = models.URLField(default='')
+    current_fair_share = models.IntegerField(default=0)
+    member_since = models.IntegerField(default=0)
+    nproducts = models.IntegerField(default=0)
+    nprojects = models.IntegerField(default=0)
 
     def __str__(self):
        return self.name

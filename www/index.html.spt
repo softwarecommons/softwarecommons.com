@@ -1,4 +1,6 @@
+from app.models import Organization
 homepage = True
+organizations = Organization.objects.all()
 [---]
 # Software Commons
 
@@ -22,7 +24,7 @@ restrictions and  _too few_. Sustainably sharing society's software means
 balancing between the two extremes, and Software Commons does so using two
 mechanisms: [licensing][6] and [Fair Share][7].
 
-Read more <b>[about Software Commons][10]</b>.
+Read more [about Software Commons][8].
 
 [2]: https://chat.openai.com/share/f6a2f760-f3e8-485d-a61e-ff834cbc95d3
 [3]: https://en.wikipedia.org/wiki/Commons
@@ -30,4 +32,29 @@ Read more <b>[about Software Commons][10]</b>.
 [5]: /about/tragedy-of-the-commons/
 [6]: /about/licensing/
 [7]: /about/fair-share/
-[10]: /about/
+[8]: /about/
+
+## Members
+<table>
+    <tr>
+        <th>Name</th>
+        <th class="numeric">Fair Share<br>($)</th>
+        <th class="numeric">Open Products</th>
+        <th class="numeric">Open Source<br>Projects</th>
+        <th class="numeric">Member Since<br>(Year)</th>
+    </tr>
+    {% load humanize %}
+    {% for organization in organizations %}
+    <tr>
+        <td><img src="{{ organization.img_src }}"><a href="/members/{{ organization.slug }}/">{{ organization.name }}</a></td>
+        {% if organization.current_fair_share %}
+        <td class="numeric">{{ organization.current_fair_share|intcomma }}</a></td>
+        {% else %}
+        <td class="numeric">n/a</a></td>
+        {% endif %}
+        <td class="numeric">{{ organization.nproducts }}</a></td>
+        <td class="numeric">{{ organization.nprojects }}</a></td>
+        <td class="numeric">{{ organization.member_since }}</a></td>
+    </tr>
+    {% endfor %}
+</table>
