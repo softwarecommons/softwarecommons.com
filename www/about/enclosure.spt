@@ -2,8 +2,8 @@ title = "Enclosure"
 [---] text/html
 
 Enclosure is one of two ways a commons can fail, through _too many
-restrictions_. The other way is the [tragedy of the
-commons](../tragedy-of-the-commons/). We protect against enclosure (as well as
+restrictions_ (the other way is the [tragedy of the
+commons](../tragedy-of-the-commons/)). We protect against enclosure (as well as
 the tragedy of the commons) through [licensing](../licensing/).
 
 <nav>
@@ -21,6 +21,8 @@ Imagine an English meadow, held in common, where the villagers each bring their
 cow to graze.  One day, the lord of the manor decides to annex half the common
 land for his own private use. The villagers no longer have full access to the
 meadow. This is [enclosure][1].
+
+## Protecting Against Enclosure in Software
 
 In the context of software, true enclosure is essentially impossible, due to
 the nature of digital as opposed to physical resources. Once a set of bits is

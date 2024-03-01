@@ -1,10 +1,10 @@
 title = "Tragedy of the Commons"
 [---] text/html
 
-Tragedy of the commons is one of two ways a commons can fail, through
-_too few restrictions_. The other way is [enclosure](../enclosure/). We
-protect against the tragedy of the commons through [licensing](../licensing/) and
-[Fair Share](../fair-share/).
+Tragedy of the commons is one of two ways a commons can fail, through _too few
+restrictions_ (the other way is [enclosure](../enclosure/)). We protect against
+the tragedy of the commons through [licensing](../licensing/) and [Fair
+Share](../fair-share/).
 
 <nav>
     <a class="no" href="/about/enclosure/">
@@ -22,28 +22,34 @@ cow to graze. Down the generations, more and more villagers graze more and more
 cows. People from neighboring villages bring their cows as well. The
 overgrazing ruins the meadow. This is the [tragedy of the commons][1].
 
+## Protecting Against the Tragedy of the Commons in Software
+
 In the context of software, a true tragedy of the commons is essentially
 impossible, due to the nature of digital as opposed to physical resources. To
 paraphrase [Jefferson][2], my candle is not dimmed by lighting yours from it.
 Digital goods are [non-rivalrous][3].
 
 When we speak of the tragedy of the commons in software, we generally refer to
-[maintainer burnout][4]. Bits are abundant, but [human attention is scarce][5].
-Since time is money, the sustainable answer is to pay maintainers for their
-work on the software they share. [Open Product](../open-products/) licenses
-have this balance built in, between user freedom and developer sustainability.
-For many [Open Source Projects](../open-source-projects/), companies subsidize
-work. For the remainder, the way forward is to follow the advice of Dr. Elinor
-Ostrom in her book, [_Governing the Commons_][6], including (page 90):
+[maintainer burnout][4] (which can eventually lead to security
+vulnerabilities). Bits are abundant, but [human attention is scarce][5]. Since
+time is money, the sustainable answer is to pay maintainers for their work on
+the software they share.
+
+[Open Product](../open-products/) licenses build in this balance, between user
+freedom and developer sustainability. For many [Open Source
+Projects](../open-source-projects/), organizations subsidize work. For the
+remainder, the way forward is to follow the advice of Dr. Elinor Ostrom in her
+book, [_Governing the Commons_][6], including (page 90):
 
 1. Clearly define boundaries.
-1. Involve affected people in rule-making.
+1. Involve affected parties in rule-making.
 1. Monitor behavior.
 1. Apply graduated sanctions.
 1. Maintain a conflict resolution process.
 
-Through [Fair Share](../fair-share/), Software Commons implements a solution
-based on Ostrom's framework for designing institions to manage commons.
+The Software Commons [bylaws](../bylaws/) and especially [Fair
+Share](../fair-share/) implement Ostrom's framework for institutional design to
+prevent the tragedy of the commons in Free and Open Source Software.
 
 [1]: https://en.wikipedia.org/wiki/Tragedy_of_the_commons
 [2]: https://press-pubs.uchicago.edu/founders/documents/a1_8_8s12.html
