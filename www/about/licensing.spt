@@ -1,3 +1,31 @@
 title = "Licensing"
 [---] text/html
-Licensing is one of two approaches that Software Commons takes to manage stuff.
+
+Licensing is one of two approaches that Software Commons takes to sustain a
+healthy commons of publicly shared software. The other is [Fair
+Share](../fair-share/). The two failure modes of a commons are enclosure and
+the tragedy of the commons, and licensing helps us with both.
+
+A license is a legal agreement. Through licensing, software producers grant
+permissions to others to use the software they produce. The license is what
+gives software consumers confidence that they do in fact have permission to use
+the software, given certain restrictions. The restrictions in a license encode
+a certain balance between user freedom and developer sustainability, and there
+are different approaches. Software Commons recognizes two broad classes of
+licensing, based on what kind of restrictions they impose:
+
+1. [**Free and Open Source Software**](../open-source-projects/) (FOSS)
+   licenses generally restrict use without attribution ("Permissive" licenses)
+or use without sharing alike ("Copyleft" licenses). They more or less only
+prioritize user freedom and not developer sustainability.
+
+1. [**Open Product**](../open-products/) licenses generally restrict commercial
+   use that would undermine the producer of the software. They more or less
+equally prioritize user freedom and developer sustainability.
+
+Software Commons does not make of software sharing a moral or ethical issue. It
+is fine to use closed-source or proprietary software. It is good to publicly
+share software you produce, with whatever restrictions you like, including
+Copyleft licenses. It is wonderful to share your software under Open Product
+licenses, and it is truly magnanimous to share software under Permissive
+licenses.

@@ -1,5 +1,7 @@
 title = "Fair Share"
 [---] text/html
 
-The Fair Share is one of two approaches that Software Commons takes to sustain
-a healthy commons of public software.
+Fair Share is one of two approaches that Software Commons takes to sustain a
+healthy commons of publicly shared software. The other is
+[licensing](../licensing/). The two failure modes of a commons are enclosure
+and the tragedy of the commons, and Fair Share helps us with the latter.

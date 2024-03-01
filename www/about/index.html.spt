@@ -42,16 +42,15 @@ encompasses a similar breadth of sharing practices for software.
 
 The [Open Source Initiative][14] was founded in 1998 to popularize [Free
 Software][15]. The Free and Open Source Software (FOSS) movement is built on
-user freedom as an unparalleled moral imperative.
+user freedom as an overarching moral imperative.
 
 <img src="./four-freedoms.webp">
 
-From a commons standpoint, therefore,
-while FOSS protects against enclosure, it does not protect against harmful
-free-riding and the tragedy of the commons. Software Commons includes [Open
-Source projects][16], and through [Fair Share][17] we protect FOSS against
-the tragedy of the commons, while also protecting against enclosure through
-[licensing][18].
+From a commons standpoint, therefore, while FOSS protects against enclosure, it
+does not protect against harmful free-riding and the tragedy of the commons.
+Software Commons includes [Open Source Projects][16], and through [Fair
+Share][17] we protect FOSS against the tragedy of the commons, while continuing
+to protect against enclosure through [licensing][18].
 
 [14]: https://opensource.org/
 [15]: https://www.gnu.org/philosophy/free-sw.en.html
