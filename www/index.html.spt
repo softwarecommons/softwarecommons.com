@@ -6,17 +6,6 @@ organizations = Organization.objects.all()
 
 <img class="full" src="/softwarecommons.background.webp">
 
-> The _software commons_ consists of all computer software which is
-> available at little or no cost and which can be reused with few
-> restrictions. It includes open source software[.] However the commons
-> also includes software outside of these categories[.]
-
-([Wikipedia][1])
-
-[1]: https://en.wikipedia.org/w/index.php?title=Information_commons&oldid=1186082015#Software_commons
-
-## About Software Commons
-
 Software Commons **sustainably shares society's software**, both [Open Source
 Projects][3] and [Open Products][4]. We celebrate sustainable software sharing
 in all forms.

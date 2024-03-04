@@ -2,11 +2,10 @@ title = 'About Software Commons'
 [---]
 
 Software Commons is [a multi-stakeholder cooperative][1] of software producers
-and consumers. Our purpose is **to sustainably
-share society's software**. We recognize both [Open Source Projects][7] and
-[Open Products][8] as legitimate ways to accomplish this, and <b>we celebrate
-sustainable software sharing in all forms</b> wherever we see it, whether from
-members of Software Commons or not.
+and consumers. Our purpose is **to sustainably share society's software**. We
+recognize both [Open Source Projects][7] and [Open Products][8] as legitimate
+ways to accomplish this, and <b>we celebrate sustainable software sharing in
+all forms</b> wherever we see it, both from our members and from others.
 
 <nav>
     <a href="/about/open-source-projects/">
@@ -59,6 +58,16 @@ commons][4] and [enclosure][3].
 [7]: ./open-source-projects/
 [8]: ./open-products/
 
+## From Wikipedia
+
+> The _software commons_ consists of all computer software which is
+> available at little or no cost and which can be reused with few
+> restrictions. It includes open source software[.] However the commons
+> also includes software outside of these categories[.]
+
+([source][20])
+
+[20]: https://en.wikipedia.org/w/index.php?title=Information_commons&oldid=1186082015#Software_commons
 
 ## Comparison with Creative Commons
 
