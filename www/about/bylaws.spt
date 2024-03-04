@@ -127,13 +127,11 @@ Software Commons annually sets a "Fair Share" amount that Consumers pay to maint
     - 3 seats - Steward
     - 3 seats - Maintainer (= 6 seats Producer)
     - 5 seats - Consumer
-- Voting built into softwarecommons.com
-- Combo of voting and sortition:
-    - Voting - the usual
+- Combo of voting and sortition (built into softwarecommons.com):
+    - Voting - something normal
     - Sortition - one seat of each class is by appointment, randomly from among the members, keep going until someone accepts the appointment
 - [GitHub is the source of truth][6] for board decisions.
-- Software Commons' software is Open Source. In the case of irreconcilable
-conflict, members in the minority have the option to fork.
+- worst case, minority can fork
 
 [1]: https://ica.coop/
 [2]: https://ica.coop/en/whats-co-op/co-operative-identity-values-principles
