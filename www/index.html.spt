@@ -1,23 +1,28 @@
 from app.models import Organization
 homepage = True
 organizations = Organization.objects.all()
+organizations = Organization.objects.all()
 [---]
 # Software Commons
 
 <img class="full" src="/softwarecommons.background.webp">
 
-Software Commons **sustainably shares society's software**, both [Open Source
-Projects][3] and [Open Products][4]. We celebrate sustainable software sharing
-in all forms.
-
-Read more [about Software Commons][8].
+Software Commons **sustainably shares society's software**. We celebrate
+sustainable software sharing in all forms. Read more [about Software
+Commons][8].
 
 [2]: https://chat.openai.com/share/f6a2f760-f3e8-485d-a61e-ff834cbc95d3
-[3]: /about/open-source-projects/
-[4]: /about/open-products/
 [8]: /about/
 
-## Members
+## Total Annual Budget
+
+<b>$1.2 billion</b>
+
+## FTE Devs Sustained
+
+<b>12,000</b>
+
+## Corporate Members
 <table>
     <tr>
         <th>Name</th>
@@ -28,16 +33,37 @@ Read more [about Software Commons][8].
     </tr>
     {% load humanize %}
     {% for organization in organizations %}
+    {% if organization.current_fair_share > 0 %}
     <tr>
         <td><img src="{{ organization.img_src }}"><a href="/members/{{ organization.slug }}/">{{ organization.name }}</a></td>
-        {% if organization.current_fair_share > 0 %}
         <td class="numeric">{{ organization.current_fair_share|intcomma }}</a></td>
-        {% else %}
-        <td class="numeric">{{ organization.current_fair_share|intcomma }}</a></td>
-        {% endif %}
         <td class="numeric">{{ organization.nprojects }}</a></td>
         <td class="numeric">{{ organization.nproducts }}</a></td>
         <td class="numeric">{{ organization.member_since }}</a></td>
     </tr>
+    {% endif %}
+    {% endfor %}
+</table>
+
+## Ecosystems
+<table>
+    <tr>
+        <th>Name</th>
+        <th class="numeric"><a href="/about/fair-share/">Fair Share</a> ($)</th>
+        <th class="numeric"><a href="/about/open-source-projects">Projects</a></th>
+        <th class="numeric"><a href="/about/open-products">Products</a></th>
+        <th class="numeric">Member Since</th>
+    </tr>
+    {% load humanize %}
+    {% for organization in organizations %}
+    {% if organization.current_fair_share < 0 %}
+    <tr>
+        <td><img src="{{ organization.img_src }}"><a href="/members/{{ organization.slug }}/">{{ organization.name }}</a></td>
+        <td class="numeric">{{ organization.current_fair_share|intcomma }}</a></td>
+        <td class="numeric">{{ organization.nprojects }}</a></td>
+        <td class="numeric">{{ organization.nproducts }}</a></td>
+        <td class="numeric">{{ organization.member_since }}</a></td>
+    </tr>
+    {% endif %}
     {% endfor %}
 </table>
