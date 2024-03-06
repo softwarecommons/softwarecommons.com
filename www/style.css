@@ -138,7 +138,7 @@ img.top {
   left: 2pt;
   background: black;
   color: white;
-  border-radius: 8pt;
+  border-radius: 8pt 0 8pt 0;
   padding: 3pt 6pt;
 }
 .ecosystems h2 {
