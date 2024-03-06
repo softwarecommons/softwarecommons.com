@@ -1,6 +1,7 @@
 :root {
   --purple: #551A8B;
   --blue: #0000EE;
+  --gray: #999;
 }
 * {
   margin: 0;
@@ -41,7 +42,7 @@ h2 {
 h3 {
   margin: 18pt 0 0;
   font: normal 14pt/21pt sans-serif;
-  color: #999;
+  color: var(--gray);
 }
 p {
   margin: 6pt 0;
@@ -84,51 +85,31 @@ img.full {
   border: 0;
   width: 100%;
 }
-nav {
-  margin: -6pt 0 0;
-  columns: 2;
+
+.fair-shares {
+  margin: 36pt 0;
+  border-collapse: separate;
+  border-spacing: 24pt 0;
+  border-radius: 10pt;
 }
-nav a {
-	display: block;
-  position: relative;
-  text-decoration: none;
+.fair-shares td {
+  vertical-align: top;
+  width: 50%;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 24pt;
+  margin: 10pt;
+  text-indent: 0;
 }
-nav a img {
-  margin: 0 0 12pt;
+.fair-shares h2 {
+  margin: 0;
   padding: 0;
-  border: 0;
-  width: 100%;
 }
-nav a h4 {
-  position: relative;
-  top: 20pt;
-  left: 3pt;
-  text-transform: uppercase;
+.fair-shares .summary {
   font-weight: bold;
-  font-size: 10pt;
-  line-height: 10pt;
-  color: #999;
-  margin: 0 0 3pt;
-  padding: 0;a
 }
-nav a h4 span {
-  color: white;
-  background: var(--blue);;
-  padding: 3pt 4pt;
-}
-nav a:visited h4 span {
-  background: var(--purple);;
-}
-nav a.no {
-  filter: grayscale(1);
-  opacity: 0.33;
-}
-nav a.no:hover {
-  filter: grayscale(0);
-  opacity: 0.67;
-}
-nav + nav {
-  margin-top: 0;
+.fair-shares .details {
+  color: var(--gray);
 }
 
 table {

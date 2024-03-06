@@ -33,6 +33,7 @@ class OpenSourceEcosystem(models.Model):
     name = models.CharField(max_length=256)
     owner = models.ForeignKey(Organization, on_delete=models.CASCADE, null=True)
     img_src = models.URLField(default='')
+    nmaintainers = models.IntegerField(default=0)
 
     def __str__(self):
        return self.name

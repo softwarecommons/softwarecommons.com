@@ -1,130 +1,54 @@
 title = 'About Software Commons'
 [---]
 
-Software Commons is a [cooperative][1] of software producers and consumers. Our
-purpose is **to sustainably share society's software**. <b>We celebrate
-sustainable software sharing in all forms</b> wherever we see it, both from our
-members and from others.
+Software Commons is a [cooperative][1] of Free and Open Source Software (FOSS)
+producers and consumers. Our purpose is **to sustain society's software**.
 
 
-## Two Models
+## Fair Share
 
-Software Commons recognizes both [Open Source Projects][7] and [Open Products][8]
-as legitimate software sharing models.
+Our members annually negotiate a Fair Share price that member **companies** pay
+to participating **FOSS ecosystems**, which then redistribute the funds to
+**individual maintainers** each month. The Fair Share for 2024 is:
+
+<table class="fair-shares">
+    <tr>
+        <td>
+            <h2>Private Companies</h2>
+            <p class="summary">$1,000 per developer</p>
+            <p class="details">Number of developers is determined as of December 31,
+            2023 or (if later) when the company joins Software Commons.</p>
+        </td>
+        <td>
+            <h2>Public Companies</h2>
+            <p class="summary">0.5% of revenue</p>
+            <p class="details">Revenue refers to end-user revenue for the most recent
+            full fiscal year.</p>
+        </td>
+    </tr>
+</table>
+
+<div class="clear"></div>
+
+A company's annual Fair Share payment represents voluntary financial
+compensation for the value that the company received from the FOSS ecosystems
+in the previous year. It complements other ways that the company is involved
+with each ecosystem, and does not give the company a right to influence future
+work.
 
 
-<nav>
-    <a href="/about/open-source-projects/">
-        <h4><span>Open Source Projects</span></h4>
-        <img src="/about/img/open-source-projects.webp">
-    </a>
-    <a href="/about/open-products/">
-        <h4><span>Open Products</span></h4>
-        <img src="/about/img/open-products.webp">
-    </a>
-</nav>
+## Accountability
 
-## Two Initiatives
+Software Commons is governed by a board comprised of:
 
-The two main initiatives we run are [Fair Share][6] and [licensing][5].
+- 5 seats - member companies
+- 3 seats - ecosystem partners
+- 3 seats - individual maintainers
 
-<nav>
-    <a href="/about/fair-share/">
-        <h4><span>Fair Share</span></h4>
-        <img src="/about/img/fair-share.webp">
-    </a>
-    <a href="/about/licensing/">
-        <h4><span>Licensing</span></h4>
-        <img src="/about/img/licensing.webp">
-    </a>
-</nav>
+One of each seat is chosen by sortition (random selection), the other seats in
+each class are chosen by vote. The board is responsible for ensuring that:
 
-## Two Concerns
-
-The two main concerns we protect against are the [tragedy of the
-commons][4] and [enclosure][3].
-
-<nav>
-    <a href="/about/tragedy-of-the-commons/">
-        <h4><span>Tragedy of the Commons</span></h4>
-        <img src="/about/img/tragedy.webp">
-    </a>
-    <a href="/about/enclosure/">
-        <h4><span>Enclosure</span></h4>
-        <img src="/about/img/enclosure.webp">
-    </a>
-</nav>
-
+- on the one hand, company developer or revenue reporting is accurate; and
+- on the other hand, a minimum of 80% of funds goes to individual maintainers.
 
 [1]: ./bylaws/
-[3]: ./enclosure/
-[4]: ./tragedy-of-the-commons/
-[5]: ./licensing
-[6]: ./fair-share/
-[7]: ./open-source-projects/
-[8]: ./open-products/
-
-## From Wikipedia
-
-> The _software commons_ consists of all computer software which is
-> available at little or no cost and which can be reused with few
-> restrictions. It includes open source software[.] However the commons
-> also includes software outside of these categories[.]
-
-([source][20])
-
-[20]: https://en.wikipedia.org/w/index.php?title=Information_commons&oldid=1186082015#Software_commons
-
-## Comparison with Creative Commons
-
-Software Commons is a bit like [Creative Commons][9] for software. Creative
-Commons is explicitly [_not_ for software][10], but encompasses a range of
-sharing practices for creative works. The Creative Commons motto is,
-&ldquo;[Some rights reserved][11],&rdquo; and it includes licenses that
-[restrict commercial use][12], and licenses that [restrict modification][13].
-Software Commons encompasses a similar breadth of sharing practices for
-software.
-
-<img src="./img/cc.webp">
-
-Unlike Software Commons, Creative Commons is an educational non-profit whose
-main work is to publish licenses. Software Commons is [a multi-stakeholder
-cooperative][1] that addresses [licensing][5] while also operating a [Fair
-Share][6].
-
-[9]: https://creativecommons.org/
-[10]: https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software
-[11]: https://creativecommons.org/faq/#what-does-some-rights-reserved-mean
-[12]: https://creativecommons.org/licenses/by-nc/4.0/
-[13]: https://creativecommons.org/licenses/by-nd/4.0/
-
-
-## Comparison with the Open Source Initiative
-
-The [Open Source Initiative][14] was founded in 1998 to popularize [Free
-Software][15]. For the Free and Open Source Software (FOSS) movement,
-user freedom is a singular governing moral imperative.
-
-<img src="./img/four-freedoms.webp">
-
-From a commons standpoint, therefore, while FOSS protects against enclosure, it
-does not protect against the tragedy of the commons. In the FOSS ecosystem, the
-tragedy of the commons has in fact arrived, manifesting as [a crisis of
-maintainer burnout][19]. Software Commons includes [Open Source Projects][16],
-and through [Fair Share][17] we aim to address the sustainability crisis and
-protect FOSS against the tragedy of the commons, while continuing to protect
-against enclosure through [licensing][18].
-
-Software Commons does not treat software sharing as a moral or ethical
-absolute. It is fine to use closed-source or proprietary software. It is good
-to publicly share software you produce, with whatever [licensing
-restrictions][18] you like, including Copyleft. It is wonderful to share your
-software under Open Product licenses, and it is truly magnanimous to share
-software under Permissive licenses. Thank you!
-
-[14]: https://opensource.org/
-[15]: https://www.gnu.org/philosophy/free-sw.en.html
-[16]: ./open-source-projects/
-[17]: ./fair-share/
-[18]: ./licensing/
-[19]: https://openpath.chadwhitacre.com/2024/the-open-source-sustainability-crisis/#what-is-the-sustainability-crisis

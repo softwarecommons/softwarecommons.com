@@ -7,45 +7,16 @@ organizations = Organization.objects.all()
 
 <img class="full" src="/softwarecommons.background.webp">
 
-Software Commons **sustainably shares society's software**. We celebrate
-sustainable software sharing in all forms. Read more [about Software
-Commons][8].
+Software Commons **sustains society's software**. [Read more][8].
+
+**547** companies are sustaining **5,423** software maintainers across **36** ecosystems.
 
 [2]: https://chat.openai.com/share/f6a2f760-f3e8-485d-a61e-ff834cbc95d3
 [8]: /about/
 
-## Total Annual Budget
-
-<b>$1.2 billion</b>
-
-## FTE Devs Sustained
-
-<b>12,000</b>
-
-## Corporate Members
-<table>
-    <tr>
-        <th>Name</th>
-        <th class="numeric"><a href="/about/fair-share/">Fair Share</a> ($)</th>
-        <th class="numeric"><a href="/about/open-source-projects">Projects</a></th>
-        <th class="numeric"><a href="/about/open-products">Products</a></th>
-        <th class="numeric">Member Since</th>
-    </tr>
-    {% load humanize %}
-    {% for organization in organizations %}
-    {% if organization.current_fair_share > 0 %}
-    <tr>
-        <td><img src="{{ organization.img_src }}"><a href="/members/{{ organization.slug }}/">{{ organization.name }}</a></td>
-        <td class="numeric">{{ organization.current_fair_share|intcomma }}</a></td>
-        <td class="numeric">{{ organization.nprojects }}</a></td>
-        <td class="numeric">{{ organization.nproducts }}</a></td>
-        <td class="numeric">{{ organization.member_since }}</a></td>
-    </tr>
-    {% endif %}
-    {% endfor %}
-</table>
 
 ## Ecosystems
+
 <table>
     <tr>
         <th>Name</th>
@@ -67,3 +38,11 @@ Commons][8].
     {% endif %}
     {% endfor %}
 </table>
+
+## Company Spotlight
+
+[Browse companies][2]
+
+## Maintainer Spotlight
+
+[Browse maintainers][2]
