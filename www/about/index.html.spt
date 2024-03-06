@@ -8,7 +8,7 @@ producers and consumers. Our purpose is **to sustain society's software**.
 ## Fair Share
 
 Our members annually negotiate a Fair Share price that member **companies** pay
-to participating **FOSS ecosystems**, which then redistribute the funds to
+to participating **FOSS ecosystems**, which use at least 80% of the funds to pay
 **individual maintainers** each month. The Fair Share for 2024 is:
 
 <table class="fair-shares">
@@ -39,16 +39,12 @@ work.
 
 ## Accountability
 
-Software Commons is governed by a board comprised of:
+A five-person board governs Software Commons, with representation from:
 
-- 5 seats - member companies
-- 3 seats - ecosystem partners
-- 3 seats - individual maintainers
+- member companies (2 seats)
+- ecosystem partners (1 seat)
+- individual maintainers (2 seats)
 
-One of each seat is chosen by sortition (random selection), the other seats in
-each class are chosen by vote. The board is responsible for ensuring that:
-
-- on the one hand, company developer or revenue reporting is accurate; and
-- on the other hand, a minimum of 80% of funds goes to individual maintainers.
+Representatives are chosen by sortition (random selection).
 
 [1]: ./bylaws/

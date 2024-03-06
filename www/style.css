@@ -82,7 +82,7 @@ img.top {
   columns: 2;
   margin-top: 36pt;
 }
-.spotlight a {
+.spotlight a.one {
   position: relative;
   display: inline-block;
   border: 3px solid black;
@@ -107,6 +107,10 @@ img.top {
   float: left;
   padding-right: 10pt;
 }
+.spotlight a.all {
+  display: block;
+  float: right;
+}
 
 .ecosystems {
   columns: 4;
@@ -122,6 +126,9 @@ img.top {
   width: 100%;
   overflow: hidden;
   z-index: 0;
+}
+.ecosystems a:hover, .spotlights a:hover {
+  background: #EEE;
 }
 .ecosystems span {
   display: block;

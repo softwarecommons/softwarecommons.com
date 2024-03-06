@@ -123,11 +123,11 @@ Software Commons annually sets a "Fair Share" amount that Consumers pay to maint
 
 [Sketch]
 
-- There is an 11-member board:
-    - 3 seats - Steward
-    - 3 seats - Maintainer (= 6 seats Producer)
-    - 5 seats - Consumer
-- Combo of voting and sortition (built into softwarecommons.com):
+- 5-member board:
+    - 2 seats - company member
+    - 1 seat - ecosystem partner
+    - 2 seats individual maintainer (= 3 seats Producer)
+- Combo(?) of voting and sortition (built into softwarecommons.com):
     - Voting - something normal
     - Sortition - one seat of each class is by appointment, randomly from among the members, keep going until someone accepts the appointment
 - [GitHub is the source of truth][6] for board decisions.

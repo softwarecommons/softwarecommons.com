@@ -21,17 +21,19 @@ Software Commons **sustains society's software**. [Read more][8].
 <div class="spotlights">
     <div class="spotlight">
         <h2>Company Spotlight</h2>
-        <a href="/organization/{{ organization.slug }}/">
+        <a class="one" href="/organization/{{ organization.slug }}/">
             <img src="{{ organization.img_src }}">
             <h3>{{ organization.name }}</h3>
         </a>
+        <a class="all" href="">Browse all</a>
     </div>
     <div class="spotlight">
         <h2>Maintainer Spotlight</h2>
-        <a href="/organization/{{ organization.slug }}/">
+        <a class="one" href="/organization/{{ organization.slug }}/">
             <img src="https://pbs.twimg.com/profile_images/1651675730554810368/uODnGnTu_400x400.jpg">
             <h3>Jordan Harband</h3>
         </a>
+        <a class="all" href="">Browse all</a>
     </div>
 </div>
 
