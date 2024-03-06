@@ -72,17 +72,76 @@ ul, ol {
 li {
   margin: 6pt 0;
 }
-img {
-  display: block;
-  width: 100%;
-  margin: 12pt auto;
-  border: 1px solid #CCC;
-  border-style: solid none;
-  padding: 36pt 10%;
-}
-img.full {
+img.top {
   padding: 0;
   border: 0;
+  width: 100%;
+}
+
+.spotlights {
+  columns: 2;
+  margin-top: 36pt;
+}
+.spotlight a {
+  position: relative;
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 12pt;
+  padding: 10pt;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+  text-decoration: none;
+}
+.spotlight h2 {
+  margin: 0 0 6pt;
+}
+.spotlight h3 {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.spotlight img {
+  display: block;
+  width: 25%;
+  float: left;
+  padding-right: 10pt;
+}
+
+.ecosystems {
+  columns: 4;
+  margin-top: 12pt;
+}
+.ecosystems a {
+  position: relative;
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 12pt;
+  padding: 36pt 10pt 10pt;
+  margin-bottom: 10pt;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+.ecosystems span {
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 2pt;
+  left: 2pt;
+  background: black;
+  color: white;
+  border-radius: 10pt;
+  padding: 3pt 6pt;
+}
+.ecosystems h2 {
+  font: normal 8pt/100% sans-serif;
+  white-space: nowrap;
+  margin: 3pt 0 0;
+  padding: 0;
+}
+.ecosystems img {
+  display: block;
   width: 100%;
 }
 

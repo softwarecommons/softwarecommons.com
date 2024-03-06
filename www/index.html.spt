@@ -1,11 +1,14 @@
-from app.models import Organization
+import random
+from app.models import OpenSourceEcosystem, Organization
 homepage = True
-organizations = Organization.objects.all()
-organizations = Organization.objects.all()
+ecosystems = OpenSourceEcosystem.objects.all()
+organization = Organization.objects.get(slug='sentry')
+def nmaintainers():
+    return random.randint(30, 500)
 [---]
 # Software Commons
 
-<img class="full" src="/softwarecommons.background.webp">
+<img class="top" src="/softwarecommons.background.webp">
 
 Software Commons **sustains society's software**. [Read more][8].
 
@@ -15,34 +18,33 @@ Software Commons **sustains society's software**. [Read more][8].
 [8]: /about/
 
 
+<div class="spotlights">
+    <div class="spotlight">
+        <h2>Company Spotlight</h2>
+        <a href="/organization/{{ organization.slug }}/">
+            <img src="{{ organization.img_src }}">
+            <h3>{{ organization.name }}</h3>
+        </a>
+    </div>
+    <div class="spotlight">
+        <h2>Maintainer Spotlight</h2>
+        <a href="/organization/{{ organization.slug }}/">
+            <img src="https://pbs.twimg.com/profile_images/1651675730554810368/uODnGnTu_400x400.jpg">
+            <h3>Jordan Harband</h3>
+        </a>
+    </div>
+</div>
+
 ## Ecosystems
 
-<table>
-    <tr>
-        <th>Name</th>
-        <th class="numeric"><a href="/about/fair-share/">Fair Share</a> ($)</th>
-        <th class="numeric"><a href="/about/open-source-projects">Projects</a></th>
-        <th class="numeric"><a href="/about/open-products">Products</a></th>
-        <th class="numeric">Member Since</th>
-    </tr>
+<div class="ecosystems">
     {% load humanize %}
-    {% for organization in organizations %}
-    {% if organization.current_fair_share < 0 %}
-    <tr>
-        <td><img src="{{ organization.img_src }}"><a href="/members/{{ organization.slug }}/">{{ organization.name }}</a></td>
-        <td class="numeric">{{ organization.current_fair_share|intcomma }}</a></td>
-        <td class="numeric">{{ organization.nprojects }}</a></td>
-        <td class="numeric">{{ organization.nproducts }}</a></td>
-        <td class="numeric">{{ organization.member_since }}</a></td>
-    </tr>
-    {% endif %}
+    {% for ecosystem in ecosystems %}
+    <a href="/ecosystems/{{ ecosystem.slug }}/">
+        <span>{{ nmaintainers }}{% if forloop.counter == 1 %} maintainers{% endif %}</span>
+        <img src="{{ ecosystem.img_src }}">
+        <h2>{{ ecosystem.name }}</h2>
+    </a>
     {% endfor %}
-</table>
+</div>
 
-## Company Spotlight
-
-[Browse companies][2]
-
-## Maintainer Spotlight
-
-[Browse maintainers][2]
